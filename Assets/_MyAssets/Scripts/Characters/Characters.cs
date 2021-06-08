@@ -9,6 +9,7 @@ public class Characters : MonoBehaviour
     [SerializeField] private string likes;
     [SerializeField] private string dislikes;
     [SerializeField] private string favGames;
+    private int reputation;
 
     public string getCharacterName()
     {
@@ -80,6 +81,15 @@ public class Characters : MonoBehaviour
     public void setFavGames(string favGames)
     {
         this.favGames = favGames;
+    }
+
+    public int getReputation()
+    {
+        return reputation;
+    }
+    public void setReputation(int reputation)
+    {
+        this.reputation = reputation;
     }
 
 }
