@@ -6,10 +6,18 @@ using UnityEngine.UI;
 public class MemberTag : MonoBehaviour
 {
     [SerializeField] GameObject character;
+    GameObject manager;
 
 
 
     void Start()
+    {
+        manager = GameObject.FindWithTag("Manager");
+        DayManager dayManager = manager.GetComponent<DayManager>();
+        dayManager.getDayChange().AddListener(addingGamerTag);
+    }
+
+    void addingGamerTag(int x)
     {
         Transform ignObject = gameObject.transform.GetChild(0);
         Transform imageObject = gameObject.transform.GetChild(1);
