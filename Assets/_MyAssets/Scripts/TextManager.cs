@@ -5,36 +5,60 @@ using UnityEngine.UI;
 using System.IO;
 public class TextManager : MonoBehaviour
 {
-    [SerializeField] private TMPro.TextMeshProUGUI testingTxt;
+    [SerializeField] private DialogueEditter dialogueEditter;
     string path = "Assets/_MyAssets/TextFiles/Day1.txt";
     string textChoice1;
     string textChoice2;
     string textChoice3;
+    ChatObject newChat = new ChatObject();
+    [SerializeField] Characters pocky = new Characters();
+    [SerializeField] Characters corn = new Characters();
+    public bool readNextLine = true;
     void Start()
     {
-        string nextText = "";
-        bool foundCode = false;
+        StartCoroutine(waitForText());
+    }
+
+    IEnumerator waitForText()
+    {
+        string textToSend = "";
+        string textName = "";
+        Image icon = null;
+        bool isCharacterDialogue = false;
         foreach (string line in File.ReadLines(path))
         {
-            if (foundCode == true)
+            yield return new WaitUntil(() => readNextLine == true);
+            if (isCharacterDialogue == false)
             {
-                if (line.Contains("#"))
+                if (line.Contains("@:PockyDaze"))
                 {
-                    break;
+                    textName = pocky.getIgn();
+                    icon = pocky.getIcon();
+                    isCharacterDialogue = true;
+                    continue;
                 }
-                nextText += line + "\n";
-
+                else if (line.Contains("@:CanOfCorn"))
+                {
+                    textName = corn.getIgn();
+                    icon = corn.getIcon();
+                    isCharacterDialogue = true;
+                    continue;
+                }
+                else
+                {
+                    textName = "Server Bot";
+                    icon = null;
+                }
             }
             else
             {
-                if (line.Contains("#112"))
-                {
-                    foundCode = true;
-                }
+
             }
+            textToSend = line;
+            readNextLine = false;
+            isCharacterDialogue = false;
+            sendNextText(textToSend, textName, icon);
         }
-        Debug.Log(nextText);
-        testingTxt.text = nextText;
     }
     public void settingUpNextText(int x)
     {
@@ -55,8 +79,8 @@ public class TextManager : MonoBehaviour
         gameObject.GetComponent<TextChoiceManager>().nextChoices(textChoice1, textChoice2, textChoice3);
     }
 
-    public void sendNextText()
+    public void sendNextText(string textToSend, string textName, Image icon)
     {
-        //send text to text area.
+        dialogueEditter.creatingMessage(textToSend, textName, icon);
     }
 }

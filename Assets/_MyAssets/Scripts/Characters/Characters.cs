@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 public class Characters : MonoBehaviour
 {
     [SerializeField] private string characterName;
     [SerializeField] private string ign;
     [SerializeField] private int age;
-    [SerializeField] private Sprite icon;
+    [SerializeField] private Image icon;
     [SerializeField] private string bio;
     [SerializeField] private string likes;
     [SerializeField] private string dislikes;
@@ -38,11 +39,11 @@ public class Characters : MonoBehaviour
         this.age = age;
     }
 
-    public Sprite getIcon()
+    public Image getIcon()
     {
         return icon;
     }
-    public void setIcon(Sprite icon)
+    public void setIcon(Image icon)
     {
         this.icon = icon;
     }

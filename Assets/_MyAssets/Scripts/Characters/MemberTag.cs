@@ -23,6 +23,6 @@ public class MemberTag : MonoBehaviour
         Transform imageObject = gameObject.transform.GetChild(1);
         Characters characterInfo = character.GetComponent<Characters>();
         ignObject.GetComponent<TMPro.TextMeshProUGUI>().text = characterInfo.getIgn();
-        imageObject.GetComponent<Image>().sprite = characterInfo.getIcon();
+        // imageObject.GetComponent<Image>().sprite = characterInfo.getIcon().sprite;
     }
 }
