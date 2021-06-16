@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
@@ -7,13 +6,15 @@ public class TextManager : MonoBehaviour
 {
     [SerializeField] private DialogueEditter dialogueEditter;
     string path = "Assets/_MyAssets/TextFiles/Day1.txt";
-    string textChoice1;
-    string textChoice2;
-    string textChoice3;
-    ChatObject newChat = new ChatObject();
     [SerializeField] Characters pocky = new Characters();
     [SerializeField] Characters corn = new Characters();
+    [SerializeField] TMPro.TextMeshProUGUI choice1Button;
+    [SerializeField] TMPro.TextMeshProUGUI choice2Button;
     public bool readNextLine = true;
+    string choiceResult = "";
+    string choice1 = "";
+    string choice2 = "";
+    Image image = null;
     void Start()
     {
         StartCoroutine(waitForText());
@@ -24,61 +25,88 @@ public class TextManager : MonoBehaviour
         string textToSend = "";
         string textName = "";
         Image icon = null;
-        bool isCharacterDialogue = false;
+        string[] splitDialogue;
+        bool choices = false;
         foreach (string line in File.ReadLines(path))
         {
             yield return new WaitUntil(() => readNextLine == true);
-            if (isCharacterDialogue == false)
+            splitDialogue = line.Split('|');
+            if (choices == false)
             {
-                if (line.Contains("@:PockyDaze"))
+                if (line.Contains("@:"))
                 {
-                    textName = pocky.getIgn();
-                    icon = pocky.getIcon();
-                    isCharacterDialogue = true;
-                    continue;
+                    if (splitDialogue[1].Contains("CanOfCorn"))
+                    {
+                        icon = corn.getIcon();
+                    }
+                    else if (splitDialogue[1].Contains("PockyDaze"))
+                    {
+                        icon = pocky.getIcon();
+                    }
+                    textToSend = splitDialogue[2];
+                    textName = splitDialogue[1];
+                    readNextLine = false;
+                    sendNextText(textToSend, textName, icon);
                 }
-                else if (line.Contains("@:CanOfCorn"))
+                else if (line.Contains("*:"))
                 {
-                    textName = corn.getIgn();
-                    icon = corn.getIcon();
-                    isCharacterDialogue = true;
-                    continue;
+                    choices = true;
+                    choice1 = splitDialogue[1];
+                    choice2 = splitDialogue[2];
+                    choice1Button.text = choice1;
+                    choice2Button.text = choice2;
+                    readNextLine = false;
                 }
                 else
                 {
                     textName = "Server Bot";
                     icon = null;
+                    textToSend = line;
+                    readNextLine = false;
+                    sendNextText(textToSend, textName, icon);
                 }
             }
             else
             {
+                if (!line.Contains("?/"))
+                {
 
+                    if (splitDialogue[0].Contains(choiceResult))
+                    {
+                        Debug.Log(splitDialogue[0] + "  " + choiceResult);
+                        if (splitDialogue[1].Contains("CanOfCorn"))
+                        {
+                            icon = corn.getIcon();
+                        }
+                        else if (splitDialogue[1].Contains("PockyDaze"))
+                        {
+                            icon = pocky.getIcon();
+                        }
+                        textToSend = splitDialogue[2];
+                        textName = splitDialogue[1];
+                        readNextLine = false;
+                        sendNextText(textToSend, textName, icon);
+                    }
+                }
+                else
+                {
+                    choices = false;
+                }
             }
-            textToSend = line;
-            readNextLine = false;
-            isCharacterDialogue = false;
-            sendNextText(textToSend, textName, icon);
         }
     }
-    public void settingUpNextText(int x)
+    public void submitAnswer(string x)
     {
-
+        choiceResult = x;
+        if (x.Contains("A"))
+        {
+            sendNextText(choice1, "Player Name", image);
+        }
+        else if (x.Contains("B"))
+        {
+            sendNextText(choice2, "Player Name", image);
+        }
     }
-
-    public void settingUpNextChoices(int x)
-    {
-        string textChoice1 = "";
-        string textChoice2 = "";
-        string textChoice3 = "";
-        this.textChoice1 = textChoice1;
-        this.textChoice2 = textChoice2;
-        this.textChoice3 = textChoice3;
-    }
-    public void sendNextChoices()
-    {
-        gameObject.GetComponent<TextChoiceManager>().nextChoices(textChoice1, textChoice2, textChoice3);
-    }
-
     public void sendNextText(string textToSend, string textName, Image icon)
     {
         dialogueEditter.creatingMessage(textToSend, textName, icon);

@@ -5,21 +5,11 @@ using UnityEngine.UI;
 
 public class DialogueEditter : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField] private GameObject chatMessage;
     [SerializeField] private TextManager textManager;
     private GameObject currentText;
     private GameObject pastText;
     bool firstAttached = true;
-    void Start()
-    {
-        // StartCoroutine(waitToAdjust(1.0f));
-        // Debug.Log("I am hopg");
-    }
-    // IEnumerator waitToAdjust(float waitTime)
-    // {
-
-    // }
     public void creatingMessage(string textToRecieve, string textName, Image icon)
     {
         chatMessage.GetComponent<ChatObject>().myChatText.text = textToRecieve;
@@ -49,23 +39,12 @@ public class DialogueEditter : MonoBehaviour
             Invoke("moveAllPastText", 2.0f);
         }
     }
-    int counter = 0;
     void moveAllPastText()
     {
         currentText.transform.position = currentText.transform.position + new Vector3(0, 12, 0);
         GameObject newMessage = Instantiate(chatMessage, new Vector3(5, -30, 0), Quaternion.identity, gameObject.transform);
         pastText = currentText;
         currentText = newMessage;
-        if (counter == 3)
-        {
-
-        }
-        else
-        {
-
-            Debug.Log(counter);
-            textManager.readNextLine = true;
-            counter++;
-        }
+        textManager.readNextLine = true;
     }
 }
