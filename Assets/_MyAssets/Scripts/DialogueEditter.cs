@@ -17,7 +17,7 @@ public class DialogueEditter : MonoBehaviour
         chatMessage.GetComponent<ChatObject>().myNameText.text = textName;
         if (currentText == null)
         {
-            currentText = Instantiate(chatMessage, new Vector3(5, -30, 0), Quaternion.identity, gameObject.transform);
+            currentText = Instantiate(chatMessage, new Vector3(0, 0, 0), Quaternion.identity, gameObject.transform);
             textManager.readNextLine = true;
         }
         else
@@ -27,22 +27,12 @@ public class DialogueEditter : MonoBehaviour
     }
     void attachingToPastText()
     {
-        if (firstAttached == true)
-        {
-            Debug.Log("in line 50");
-            firstAttached = false;
-            moveAllPastText();
-        }
-        else
-        {
-            pastText.transform.SetParent(currentText.transform);
-            Invoke("moveAllPastText", 2.0f);
-        }
+        Invoke("moveAllPastText", 2.0f);
     }
     void moveAllPastText()
     {
-        currentText.transform.position = currentText.transform.position + new Vector3(0, 12, 0);
-        GameObject newMessage = Instantiate(chatMessage, new Vector3(5, -30, 0), Quaternion.identity, gameObject.transform);
+        currentText.transform.position = currentText.transform.position + new Vector3(0, 0, 0);
+        GameObject newMessage = Instantiate(chatMessage, currentText.transform.position + new Vector3(0, 0, 0), Quaternion.identity, gameObject.transform);
         pastText = currentText;
         currentText = newMessage;
         textManager.readNextLine = true;
