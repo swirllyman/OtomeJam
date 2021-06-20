@@ -15,6 +15,7 @@ public class MemberTag : MonoBehaviour
         manager = GameObject.FindWithTag("Manager");
         DayManager dayManager = manager.GetComponent<DayManager>();
         dayManager.getDayChange().AddListener(addingGamerTag);
+        dayManager.getTimeTracker().AddListener(timeTest);
     }
 
     void addingGamerTag(int x)
@@ -24,5 +25,22 @@ public class MemberTag : MonoBehaviour
         Characters characterInfo = character.GetComponent<Characters>();
         ignObject.GetComponent<TMPro.TextMeshProUGUI>().text = characterInfo.getIgn();
         // imageObject.GetComponent<Image>().sprite = characterInfo.getIcon().sprite;
+    }
+
+    void timeTest(dayPhases phase)
+    {
+        Debug.Log(phase);
+        switch (phase)
+        {
+            case dayPhases.MORNING:
+                Debug.Log("testing morning");
+                break;
+            case dayPhases.AFTERNOON:
+                Debug.Log("testing afternoon");
+                break;
+            case dayPhases.NIGHT:
+                Debug.Log("testing night");
+                break;
+        }
     }
 }

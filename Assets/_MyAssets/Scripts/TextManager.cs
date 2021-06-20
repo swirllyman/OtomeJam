@@ -19,11 +19,8 @@ public class TextManager : MonoBehaviour
     {
         StartCoroutine(waitForText());
     }
-
     IEnumerator waitForText()
     {
-        string textToSend = "";
-        string textName = "";
         Image icon = null;
         string[] splitDialogue;
         bool choices = false;
@@ -45,27 +42,19 @@ public class TextManager : MonoBehaviour
                         {
                             icon = pocky.getIcon();
                         }
-                        textToSend = splitDialogue[2];
-                        textName = splitDialogue[1];
                         readNextLine = false;
-                        sendNextText(textToSend, textName, icon);
+                        settingText(splitDialogue[2], splitDialogue[1], icon);
                     }
                     else if (line.Contains("*:"))
                     {
                         choices = true;
-                        choice1 = splitDialogue[1];
-                        choice2 = splitDialogue[2];
-                        choice1Button.text = choice1;
-                        choice2Button.text = choice2;
+                        settingChoices(splitDialogue);
                         readNextLine = false;
                     }
                     else
                     {
-                        textName = "Server Bot";
-                        icon = null;
-                        textToSend = line;
                         readNextLine = false;
-                        sendNextText(textToSend, textName, icon);
+                        settingText(line, "Server Bot", null);
                     }
                 }
                 else
@@ -75,7 +64,6 @@ public class TextManager : MonoBehaviour
 
                         if (splitDialogue[0].Contains(choiceResult))
                         {
-                            Debug.Log(splitDialogue[0] + "  " + choiceResult);
                             if (splitDialogue[1].Contains("CanOfCorn"))
                             {
                                 icon = corn.getIcon();
@@ -84,10 +72,8 @@ public class TextManager : MonoBehaviour
                             {
                                 icon = pocky.getIcon();
                             }
-                            textToSend = splitDialogue[2];
-                            textName = splitDialogue[1];
                             readNextLine = false;
-                            sendNextText(textToSend, textName, icon);
+                            settingText(splitDialogue[2], splitDialogue[1], icon);
                         }
                     }
                     else
@@ -97,6 +83,18 @@ public class TextManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    void settingChoices(string[] splitDialogue)
+    {
+        choice1 = splitDialogue[1];
+        choice2 = splitDialogue[2];
+        choice1Button.text = choice1;
+        choice2Button.text = choice2;
+    }
+    void settingText(string msgText, string name, Image icon)
+    {
+        sendNextText(msgText, name, icon);
     }
     public void submitAnswer(string x)
     {
