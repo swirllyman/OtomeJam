@@ -31,20 +31,19 @@ public class DayManager : MonoBehaviour
     }
 
 
-    void morning()
+    public void morning()
     {
         // News bot first thing and start of dialogue
-        Debug.Log("morning");
         timeTracker.Invoke(dayPhases.MORNING);
     }
 
-    void afternoon()
+    public void afternoon()
     {
         // finishing main dialogue- aka news bot updates and start of dm's
         timeTracker.Invoke(dayPhases.AFTERNOON);
     }
 
-    void night()
+    public void night()
     {
         // Finishing dm's and ending day wrap up.
         timeTracker.Invoke(dayPhases.NIGHT);

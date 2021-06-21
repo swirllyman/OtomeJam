@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using System.IO;
 public class TextManager : MonoBehaviour
 {
+    [SerializeField] private int channel;
     [SerializeField] private DialogueEditter dialogueEditter;
     [SerializeField] string path = "";
     [SerializeField] Characters pocky = new Characters();
@@ -15,9 +16,35 @@ public class TextManager : MonoBehaviour
     string choice1 = "";
     string choice2 = "";
     Image image = null;
+    DayManager timeTracker;
     void Start()
     {
-        StartCoroutine(waitForText());
+        GameObject manager = GameObject.FindWithTag("Manager");
+        timeTracker = manager.GetComponent<DayManager>();
+        timeTracker.getTimeTracker().AddListener(startMainText);
+    }
+
+    public void startMainText(dayPhases phase)
+    {
+        switch (phase)
+        {
+            case dayPhases.MORNING:
+                if (channel == 1 || channel == 2)
+                {
+                    StartCoroutine(waitForText());
+                }
+                break;
+            case dayPhases.AFTERNOON:
+                if (channel == 2 || channel == 3 || channel == 4)
+                {
+                    StartCoroutine(waitForText());
+                }
+                Debug.Log("testing afternoon");
+                break;
+            case dayPhases.NIGHT:
+                Debug.Log("testing night");
+                break;
+        }
     }
     IEnumerator waitForText()
     {
@@ -47,6 +74,8 @@ public class TextManager : MonoBehaviour
                     }
                     else if (line.Contains("*:"))
                     {
+                        choice1Button.gameObject.transform.parent.gameObject.SetActive(true);
+                        choice2Button.gameObject.transform.parent.gameObject.SetActive(true);
                         choices = true;
                         settingChoices(splitDialogue);
                         readNextLine = false;
@@ -82,6 +111,14 @@ public class TextManager : MonoBehaviour
                     }
                 }
             }
+            if (channel == 1)
+            {
+                timeTracker.afternoon();
+            }
+            else if (channel == 3 || channel == 4)
+            {
+                timeTracker.night();
+            }
         }
     }
 
@@ -107,6 +144,8 @@ public class TextManager : MonoBehaviour
         {
             sendNextText(choice2, "Player Name", image);
         }
+        choice1Button.gameObject.transform.parent.gameObject.SetActive(false);
+        choice2Button.gameObject.transform.parent.gameObject.SetActive(false);
     }
     public void sendNextText(string textToSend, string textName, Image icon)
     {
