@@ -29,18 +29,5 @@ public class MemberTag : MonoBehaviour
 
     void timeTest(dayPhases phase)
     {
-        Debug.Log(phase);
-        switch (phase)
-        {
-            case dayPhases.MORNING:
-                Debug.Log("testing morning");
-                break;
-            case dayPhases.AFTERNOON:
-                Debug.Log("testing afternoon");
-                break;
-            case dayPhases.NIGHT:
-                Debug.Log("testing night");
-                break;
-        }
     }
 }

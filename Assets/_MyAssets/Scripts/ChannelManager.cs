@@ -25,6 +25,7 @@ public class ChannelManager : MonoBehaviour
             {
                 channelObj[i].SetActive(true);
                 channelChoices[i].SetActive(true);
+                channelObj[i].transform.parent.gameObject.GetComponent<TextManager>().notification.SetActive(false);
             }
             else
             {

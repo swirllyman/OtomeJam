@@ -1,53 +1,49 @@
-CanOfCorn#1122	Hey @CanOfCorn, welcome to The Server!
-PockyDaze#0120	Hey @PockyDaze, welcome to The Server!
-@:|CanOfCorn|Yo, that game was ridiculous.
-@:|PockyDaze|Yeah, I thought we'd lose for sure at the end...
-@:|CanOfCorn|Nah, we had that one. <player's name> came in clutch!
-@:|PockyDaze|Yeah, <player's pronoun> really saved us in that last fight.
-@:|CanOfCorn|How long you been playing for, <player's name>?
-*:|I just started...|I've been playing for a while now.
-A|PockyDaze|Jeez you're better than me already.
-B|PockyDaze|Lol maybe you could teach me a thing or two sometime.
-?/
-@:|CanOfCorn|Ye <player's pronoun> got you beat, bro.
-@:|PockyDaze|Ehhh... I just suck at this kind of game tbh.
-*:|Don't sell yourself short :(|Just practice and play more 4hed :P
-A|CanOfCorn|If you tell him that, he'll never get better.
-A|PockyDaze|Pfft thanks.
-B|CanOfCorn|LOLOL got you there.
-B|PockyDaze|Oof.
-?/
-@:|CanOfCorn|Do you usually play top, Pocky?
-@:|PockyDaze|Yeah, I prefer it up there. Solo-laning is more my style.
-@:|CanOfCorn|Nice. I started in mid, but I prefer ADC. 
-@:|CanOfCorn|Especially if I have a competent support.
-@:|PockyDaze|True. It's hard to do anything in top lane without a good jungler.
-@:|CanOfCorn|HBU <player's name>? What do you main?
-*:|I like support. Duoing with an ADC is fun.|I like jungle. Ganking lanes is where it's at.
-A|CanOfCorn|Sweet. We should ranked duo sometime or something ;P
-B|PockyDaze|That's cool. Your ganks did help me out a bit.
-@:|CanOfCorn|Shit, well. My other friends are hitting me up to play Bash Bros...
-@:|CanOfCorn|But, we should all play together again some time.
-@:|PockyDaze|Yeah I'd be down.
-*:|Totally, I love Alliance of Myth.|Maybe. I only play Alliance of Myth with a group.
-A|CanOfCorn|Sick :D Can't wait to play more... tomorrow, maybe?
-A|PockyDaze|Sure, just hit me up. I'm usually online.
-B|CanOfCorn|Same! I prefer gaming with friends.
-B|PockyDaze|I'm usually solo gaming, so it's whatever for me.
-?/
-@:|CanOfCorn|Anyways. I'll catch you guys later.
-@:|PockyDaze|Alright. I think I'm gonna go play some Flows!
-@:|CanOfCorn|Nice! That's that rhythm game, right?
-@:|PockyDaze|Yeah. I like to vibe to the music. It's playable with friends too, but I hardly do...
-@:|PockyDaze|I think I heard Bash Bros is an ultimate showdown, fighter type?
-@:|CanOfCorn|Ye. I like it cos I can be so random, and I can play with my irl friends, too.
-@:|CanOfCorn|<player's name>, if you want to join, we have space.
-@:|PockyDaze|I could also show you Flows! if you're interested in that.
-@:|CanOfCorn|BASH BROS SERVER LINK
-@:|PockyDaze|FLOWS! SERVER LINK
-*:|Join Bash Bros Server|Join Flows! Server
-A|CanOfCorn|Woo! I'll see you in there! 
-A|PockyDaze|Catch you guys later.
-B|PockyDaze|Oh, okay. Meet you in there.
-B|CanOfCorn|See ya!
-End
+@:|0|Server Bot|CanOfCorn#1122	Hey @CanOfCorn, welcome to The Server!
+@:|0|Server Bot|PockyDaze#0120	Hey @PockyDaze, welcome to The Server!
+@:|0|CanOfCorn|Yo, that game was ridiculous.
+@:|0|PockyDaze|Yeah, I thought we'd lose for sure at the end...
+@:|0|CanOfCorn|Nah, we had that one. <player's name> came in clutch!
+@:|0|PockyDaze|Yeah, <player's pronoun> really saved us in that last fight.
+@:|0|CanOfCorn|How long you been playing for, <player's name>?
+*:|0|1|2|I just started...|I've been playing for a while now.
+@:|1|PockyDaze|Jeez you're better than me already.
+@:|2|PockyDaze|Lol maybe you could teach me a thing or two sometime.
+@:|0|CanOfCorn|Ye <player's pronoun> got you beat, bro.
+@:|0|PockyDaze|Ehhh... I just suck at this kind of game tbh.
+*:|0|1|2|Don't sell yourself short :(|Just practice and play more 4hed :P
+@:|1|CanOfCorn|If you tell him that, he'll never get better.
+@:|1|PockyDaze|Pfft thanks.
+@:|2|CanOfCorn|LOLOL got you there.
+@:|2|PockyDaze|Oof.
+@:|0|CanOfCorn|Do you usually play top, Pocky?
+@:|0|PockyDaze|Yeah, I prefer it up there. Solo-laning is more my style.
+@:|0|CanOfCorn|Nice. I started in mid, but I prefer ADC. 
+@:|0|CanOfCorn|Especially if I have a competent support.
+@:|0|PockyDaze|True. It's hard to do anything in top lane without a good jungler.
+@:|0|CanOfCorn|HBU <player's name>? What do you main?
+*:|0|1|2|I like support. Duoing with an ADC is fun.|I like jungle. Ganking lanes is where it's at.
+@:|1|CanOfCorn|Sweet. We should ranked duo sometime or something ;P
+@:|2|PockyDaze|That's cool. Your ganks did help me out a bit.
+@:|0|CanOfCorn|Shit, well. My other friends are hitting me up to play Bash Bros...
+@:|0|CanOfCorn|But, we should all play together again some time.
+@:|0|PockyDaze|Yeah I'd be down.
+*:|0|1|2|Totally, I love Alliance of Myth.|Maybe. I only play Alliance of Myth with a group.
+@:|1|CanOfCorn|Sick :D Can't wait to play more... tomorrow, maybe?
+@:|1|PockyDaze|Sure, just hit me up. I'm usually online.
+@:|2|CanOfCorn|Same! I prefer gaming with friends.
+@:|2|PockyDaze|I'm usually solo gaming, so it's whatever for me.
+@:|0|CanOfCorn|Anyways. I'll catch you guys later.
+@:|0|PockyDaze|Alright. I think I'm gonna go play some Flows!
+@:|0|CanOfCorn|Nice! That's that rhythm game, right?
+@:|0|PockyDaze|Yeah. I like to vibe to the music. It's playable with friends too, but I hardly do...
+@:|0|PockyDaze|I think I heard Bash Bros is an ultimate showdown, fighter type?
+@:|0|CanOfCorn|Ye. I like it cos I can be so random, and I can play with my irl friends, too.
+@:|0|CanOfCorn|<player's name>, if you want to join, we have space.
+@:|0|PockyDaze|I could also show you Flows! if you're interested in that.
+@:|0|CanOfCorn|BASH BROS SERVER LINK
+@:|0|PockyDaze|FLOWS! SERVER LINK
+*:|0|1|2|Join Bash Bros Server|Join Flows! Server
+@:|1|CanOfCorn|Woo! I'll see you in there! 
+@:|1|PockyDaze|Catch you guys later.
+@:|2|PockyDaze|Oh, okay. Meet you in there.
+@:|2|CanOfCorn|See ya!
