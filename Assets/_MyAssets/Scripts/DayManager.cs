@@ -16,7 +16,7 @@ public class DayManager : MonoBehaviour
     DayTracker dayChange = new DayTracker();
     TimeTracker timeTracker = new TimeTracker();
 
-    int day = 0;
+    int day = 2;
     void Start()
     {
         StartCoroutine(waitForStart());
@@ -58,6 +58,7 @@ public class DayManager : MonoBehaviour
     public void nextDay()
     {
         day++;
+        onChangeOfDay(day);
     }
     public TimeTracker getTimeTracker()
     {

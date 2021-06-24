@@ -18,15 +18,19 @@ public class TextManager : MonoBehaviour
     string choice2 = "";
     Image image = null;
     DayManager timeTracker;
+    textFileHolder textHolder;
     enum txtType { DIALOGUE, CHOICE, NEWS };
     string currentChoiceId = "";
     txtType currentType;
     bool hotKeyHit = false;
+    string newsGameName;
     void Start()
     {
         GameObject manager = GameObject.FindWithTag("Manager");
+        textHolder = manager.GetComponent<textFileHolder>();
         timeTracker = manager.GetComponent<DayManager>();
         timeTracker.getTimeTracker().AddListener(startMainText);
+        timeTracker.getDayChange().AddListener(onDayChange);
     }
 
     public void startMainText(dayPhases phase)
@@ -184,5 +188,25 @@ public class TextManager : MonoBehaviour
     public void sendNextText(string textToSend, string textName, Image icon)
     {
         dialogueEditter.creatingMessage(textToSend, textName, icon);
+    }
+
+    void onDayChange(int day)
+    {
+        switch (channel)
+        {
+            case 1:
+                path = (string)textHolder.mainServerText[day];
+                break;
+            // case 2:
+            //     path = (string)textHolder.newsText[newsGameName];
+            //     break;
+            case 3:
+                path = (string)textHolder.canDmText[day];
+                break;
+            case 4:
+                path = (string)textHolder.pokyDmText[day];
+                break;
+        }
+
     }
 }
