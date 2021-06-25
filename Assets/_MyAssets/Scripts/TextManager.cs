@@ -24,7 +24,7 @@ public class TextManager : MonoBehaviour
     txtType currentType;
     bool hotKeyHit = false;
     string newsGameName;
-    void Start()
+    void Awake()
     {
         GameObject manager = GameObject.FindWithTag("Manager");
         textHolder = manager.GetComponent<textFileHolder>();
@@ -89,8 +89,7 @@ public class TextManager : MonoBehaviour
                 Debug.Log(gameObject + "am I working");
                 if (hotKeyHit == true)
                 {
-                    hotKeyHit = false;
-                    break;
+                    continue;
                 }
                 yield return new WaitUntil(() => readNextLine == true);
 
@@ -115,9 +114,11 @@ public class TextManager : MonoBehaviour
                 }
                 settingState(splitDialogue);
             }
+            hotKeyHit = false;
             if (channel == 1)
             {
-                timeTracker.afternoon();
+                yield return new WaitForSeconds(4f);
+                timeTracker.night();
             }
             else if (channel == 3 || channel == 4)
             {
@@ -142,6 +143,8 @@ public class TextManager : MonoBehaviour
                     {
                         icon = pocky.getIcon();
                     }
+                    splitDialogue[3] = splitDialogue[3].Replace("<he/she/they>", "she");
+                    splitDialogue[3] = splitDialogue[3].Replace("<pnm>", "Kaine");
                     settingText(splitDialogue[3], splitDialogue[2], icon);
                     break;
                 case txtType.CHOICE:

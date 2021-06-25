@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class endOfDayAnimation : MonoBehaviour
 {
+    [SerializeField] TMPro.TextMeshProUGUI dayText;
     DayManager timeTracker;
     Animation animation;
     // Start is called before the first frame update
@@ -12,7 +13,9 @@ public class endOfDayAnimation : MonoBehaviour
         GameObject manager = GameObject.FindWithTag("Manager");
         timeTracker = manager.GetComponent<DayManager>();
         timeTracker.getTimeTracker().AddListener(timeToFadeOut);
+        timeTracker.getDayChange().AddListener(dayChange);
         animation = gameObject.GetComponent<Animation>();
+        gameObject.SetActive(false);
     }
 
     void timeToFadeOut(dayPhases night)
@@ -20,13 +23,18 @@ public class endOfDayAnimation : MonoBehaviour
         switch (night)
         {
             case dayPhases.NIGHT:
+                gameObject.SetActive(true);
                 animation.Play();
                 break;
         }
     }
-
+    void dayChange(int x)
+    {
+        dayText.text = "Day " + (x + 1);
+    }
     void fadeDone()
     {
+        gameObject.SetActive(false);
         timeTracker.nextDay();
     }
 

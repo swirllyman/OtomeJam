@@ -16,7 +16,7 @@ public class DayManager : MonoBehaviour
     DayTracker dayChange = new DayTracker();
     TimeTracker timeTracker = new TimeTracker();
 
-    int day = 2;
+    int day = 1;
     void Start()
     {
         StartCoroutine(waitForStart());
@@ -24,6 +24,7 @@ public class DayManager : MonoBehaviour
     IEnumerator waitForStart()
     {
         yield return new WaitForSeconds(2f);
+        Debug.Log("I am running");
         onChangeOfDay(day);
     }
     void onChangeOfDay(int x)

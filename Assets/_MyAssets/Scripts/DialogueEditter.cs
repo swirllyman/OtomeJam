@@ -27,7 +27,7 @@ public class DialogueEditter : MonoBehaviour
     }
     void attachingToPastText()
     {
-        Invoke("moveAllPastText", 2.0f);
+        Invoke("moveAllPastText", 1.0f);
     }
     void moveAllPastText()
     {

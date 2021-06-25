@@ -2,13 +2,13 @@
 @:|0|Server Bot|PockyDaze#0120	Hey @PockyDaze, welcome to The Server!
 @:|0|CanOfCorn|Yo, that game was ridiculous.
 @:|0|PockyDaze|Yeah, I thought we'd lose for sure at the end...
-@:|0|CanOfCorn|Nah, we had that one. <player's name> came in clutch!
-@:|0|PockyDaze|Yeah, <player's pronoun> really saved us in that last fight.
-@:|0|CanOfCorn|How long you been playing for, <player's name>?
+@:|0|CanOfCorn|Nah, we had that one. <pnm> came in clutch!
+@:|0|PockyDaze|Yeah, <he/she/they> really saved us in that last fight.
+@:|0|CanOfCorn|How long you been playing for, <pnm>?
 *:|0|1|2|I just started...|I've been playing for a while now.
 @:|1|PockyDaze|Jeez you're better than me already.
 @:|2|PockyDaze|Lol maybe you could teach me a thing or two sometime.
-@:|0|CanOfCorn|Ye <player's pronoun> got you beat, bro.
+@:|0|CanOfCorn|Ye <he/she/they> got you beat, bro.
 @:|0|PockyDaze|Ehhh... I just suck at this kind of game tbh.
 *:|0|1|2|Don't sell yourself short :(|Just practice and play more 4hed :P
 @:|1|CanOfCorn|If you tell him that, he'll never get better.
@@ -20,7 +20,7 @@
 @:|0|CanOfCorn|Nice. I started in mid, but I prefer ADC. 
 @:|0|CanOfCorn|Especially if I have a competent support.
 @:|0|PockyDaze|True. It's hard to do anything in top lane without a good jungler.
-@:|0|CanOfCorn|HBU <player's name>? What do you main?
+@:|0|CanOfCorn|HBU <pnm>? What do you main?
 *:|0|1|2|I like support. Duoing with an ADC is fun.|I like jungle. Ganking lanes is where it's at.
 @:|1|CanOfCorn|Sweet. We should ranked duo sometime or something ;P
 @:|2|PockyDaze|That's cool. Your ganks did help me out a bit.
@@ -38,7 +38,7 @@
 @:|0|PockyDaze|Yeah. I like to vibe to the music. It's playable with friends too, but I hardly do...
 @:|0|PockyDaze|I think I heard Bash Bros is an ultimate showdown, fighter type?
 @:|0|CanOfCorn|Ye. I like it cos I can be so random, and I can play with my irl friends, too.
-@:|0|CanOfCorn|<player's name>, if you want to join, we have space.
+@:|0|CanOfCorn|<pnm>, if you want to join, we have space.
 @:|0|PockyDaze|I could also show you Flows! if you're interested in that.
 @:|0|CanOfCorn|BASH BROS SERVER LINK
 @:|0|PockyDaze|FLOWS! SERVER LINK
