@@ -24,6 +24,7 @@ public class TextManager : MonoBehaviour
     txtType currentType;
     bool hotKeyHit = false;
     string newsGameName;
+
     void Awake()
     {
         GameObject manager = GameObject.FindWithTag("Manager");
