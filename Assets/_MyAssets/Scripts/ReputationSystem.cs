@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ReputationSystem : MonoBehaviour
 {
+
     public void addingReputation(Characters character)
     {
         character.setReputation(character.getReputation() + 1);

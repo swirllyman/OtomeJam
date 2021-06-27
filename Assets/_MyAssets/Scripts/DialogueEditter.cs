@@ -24,6 +24,7 @@ public class DialogueEditter : MonoBehaviour
             currentText.GetComponent<ChatObject>().myChatText.text = this.textToRecieve;
             currentText.GetComponent<ChatObject>().myImage = this.icon;
             currentText.GetComponent<ChatObject>().myNameText.text = this.textName;
+            currentText.GetComponent<ChatObject>().changeSize();
             textManager.readNextLine = true;
         }
         else
@@ -38,11 +39,11 @@ public class DialogueEditter : MonoBehaviour
     void moveAllPastText()
     {
         currentText.transform.position = currentText.transform.position + new Vector3(0, 0, 0);
-        Debug.Log(chatMessage.GetComponent<ChatObject>().myChatText.text);
         GameObject newMessage = Instantiate(chatMessage, currentText.transform.position + new Vector3(0, 0, 0), Quaternion.identity, gameObject.transform);
         newMessage.GetComponent<ChatObject>().myChatText.text = textToRecieve;
         newMessage.GetComponent<ChatObject>().myImage = icon;
         newMessage.GetComponent<ChatObject>().myNameText.text = textName;
+        newMessage.GetComponent<ChatObject>().changeSize();
         pastText = currentText;
         currentText = newMessage;
         textManager.readNextLine = true;

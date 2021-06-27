@@ -15,19 +15,15 @@ public class DayManager : MonoBehaviour
 {
     DayTracker dayChange = new DayTracker();
     TimeTracker timeTracker = new TimeTracker();
+    [SerializeField] MainChat mainChat = new MainChat();
 
     int day = 1;
-    // void Start()
-    // {
-    //     StartCoroutine(waitForStart());
-    // }
     public void startTheFuckingGame()
     {
         StartCoroutine(waitForStart());
     }
     public IEnumerator waitForStart()
     {
-        Debug.Log("HELLO FUCKING");
         yield return new WaitForSeconds(2f);
         onChangeOfDay(day);
     }
@@ -42,7 +38,6 @@ public class DayManager : MonoBehaviour
     public void morning()
     {
         // News bot first thing and start of dialogue
-        Debug.Log("Morning");
         timeTracker.Invoke(dayPhases.MORNING);
     }
 
@@ -55,6 +50,7 @@ public class DayManager : MonoBehaviour
     public void night()
     {
         // Finishing dm's and ending day wrap up.
+        mainChat.EnablePanel(0);
         timeTracker.Invoke(dayPhases.NIGHT);
     }
 

@@ -23,6 +23,7 @@ public class endOfDayAnimation : MonoBehaviour
         switch (night)
         {
             case dayPhases.NIGHT:
+                Debug.Log("Night loop");
                 gameObject.SetActive(true);
                 animation.Play();
                 break;

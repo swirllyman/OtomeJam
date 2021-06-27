@@ -6,22 +6,18 @@
 ~:1|0|In third, last year’s quarterfinalist, SOOSIN, who actually had to forfeit the semi’s due to a food allergy! Guess she’s back this year for a round two shot at the title.
 ~:1|0|Tune in again this weekend to watch the semi-finals and find out who will be facing against HungryMan in this year’s finals!"
 ?/|0|
-?:/|0|
-~:2
-"Ding ding! Did we hear ‘Customizable UI’?! Last year, we put out a vote for what you’d like to see updated and most of you made a call for more customizations. We hear you loud and clear, and now it’s time for us to deliver on that promise.
-Introducing new customizable UI’s! As simple as using any design software and plugging it in to our wizard to implement into your client. Our devs were also kind enough to make a video (click here for awesome teaching vid by our equally awesome devs) for those of you who are beginners, but would like to customize on your own.
-We also have a betaMarket where you can trade or giveaway UI designs with/to other Flows! Users.
-For any comments or feedback, leave us a line our detailed forum post here."
-?/
-~:2
-"NEW top rated ranked song of the month is... rhythm roll please... Kiramodoki by JAimer, mapped by JustPockysPls. Congratulations to JustPockyPls, whose rhythm map will be featured for the next month on our loading screen. Also, a huge thank you to our active community and all of those who voted!
-Check out all available difficulties of JustPockyPls' rhythm map at the link here: 'Kiramodoki' by JAimer."
-?/
-?:/
+~:2|0|"Ding ding! Did we hear ‘Customizable UI’?! Last year, we put out a vote for what you’d like to see updated and most of you made a call for more customizations. We hear you loud and clear, and now it’s time for us to deliver on that promise.
+~:2|0|Introducing new customizable UI’s! As simple as using any design software and plugging it in to our wizard to implement into your client. Our devs were also kind enough to make a video (click here for awesome teaching vid by our equally awesome devs) for those of you who are beginners, but would like to customize on your own.
+~:2|0|We also have a betaMarket where you can trade or giveaway UI designs with/to other Flows! Users.
+~:2|0|For any comments or feedback, leave us a line our detailed forum post here."
+?/|0|
+~:2|0|"NEW top rated ranked song of the month is... rhythm roll please... Kiramodoki by JAimer, mapped by JustPockysPls. Congratulations to JustPockyPls, whose rhythm map will be featured for the next month on our loading screen. Also, a huge thank you to our active community and all of those who voted!
+~:2|0|Check out all available difficulties of JustPockyPls' rhythm map at the link here: 'Kiramodoki' by JAimer."
+?/|0|
 ~:4
 "We’ve got a huge update in store for the end of the year! Patch 1.8 will feature long-awaited Rhythm Map skins, friend lobbies, and more avatar customizations!
 You’ll be able to reskin your beats as well as your backgrounds, along with SFX! Once again, we’ll be updating our wizard to make it easy for you to implement your own customizations, regardless of your level of experience. betaMarket will also have a new tab for map skins so you can share your own creations or find others that you like. Save and upvote your favorites!
 Last year, we talked about creating hangout areas for friends. Well, they’re finally coming! Our ‘After Party’ lobbies will allow you to hangout with friends in public or private servers, and queue up selected music from your rhythm maps. With this, we’re releasing all new CUSTOMIZABLE AVATARS. Play ranked songs to earn points for the new Avatar Shop and customize your avatar with a new look before you pop into After Party! We’ll be releasing a beta version of this before full release, for feedback and bug testing.
 Stay up to date for more information, coming soon!"
 ?/
-?:/
+?:/|0|

@@ -6,26 +6,19 @@ public class ChannelManager : MonoBehaviour
 {
     [SerializeField] GameObject[] channelObj;
     [SerializeField] GameObject[] channelChoices;
+    [SerializeField] GameObject[] channelNotifications;
 
     [SerializeField] GameObject textChannels;
 
     public void settingChannel(int currentChannel)
     {
-        if (currentChannel == 0 || currentChannel == 1)
-        {
-            textChannels.SetActive(true);
-        }
-        else
-        {
-            textChannels.SetActive(false);
-        }
         for (int i = 0; i < channelObj.Length; i++)
         {
             if (i == currentChannel)
             {
                 channelObj[i].SetActive(true);
                 channelChoices[i].SetActive(true);
-                channelObj[i].transform.parent.gameObject.GetComponent<TextManager>().notification.SetActive(false);
+                channelNotifications[i].SetActive(false);
             }
             else
             {

@@ -107,7 +107,6 @@ public class PlayerAccountLogin : MonoBehaviour
     {
         //TODO: Setup Any Login Info For Returning Players
         GameObject manager = GameObject.FindGameObjectWithTag("Manager");
-        Debug.Log(manager);
         manager.GetComponent<DayManager>().startTheFuckingGame();
         GameManager.singleton.currentPlayerAccount = playerAccounts[accountID];
         GameManager.singleton.SetupLocalPlayer();

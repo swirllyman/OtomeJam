@@ -1,4 +1,4 @@
-@:|0|Server Bot|<mark=#7289da60>#1122	Hey @CanOfCorn, welcome to The Server!</mark>
+@:|0|Server Bot|#1122	Hey @CanOfCorn, welcome to The Server!
 @:|0|Server Bot|PockyDaze#0120	Hey @PockyDaze, welcome to The Server!
 @:|0|CanOfCorn|Yo, that game was ridiculous.
 @:|0|PockyDaze|Yeah, I thought we'd lose for sure at the end...
@@ -43,9 +43,9 @@
 @:|0|CanOfCorn|BASH BROS SERVER LINK
 @:|0|PockyDaze|FLOWS! SERVER LINK
 *:|0|1|2|Join Bash Bros Server|Join Flows! Server
-@:|1|CanOfCorn|Woo! I'll see you in there! 
+@:|1|CanOfCorn|Woo! I'll see you in there!|C
 @:|1|PockyDaze|Catch you guys later.
-@:|2|PockyDaze|Oh, okay. Meet you in there.
+@:|2|PockyDaze|Oh, okay. Meet you in there.|P
 @:|2|CanOfCorn|See ya!
-!:|1|flows
-!:|2|bash
+!:|1|bash|C
+!:|2|flows|P

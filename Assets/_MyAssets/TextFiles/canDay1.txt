@@ -17,7 +17,7 @@
 @:|0|CanOfCorn|And must admit, pretty excited for new character releases :o
 *:|0|1|2|Oh yeah! Nie Replica's B2 and 2A|Oh yeah! Nie Automatic's B2 and 2A
 @:|1|CanOfCorn|*Nie Automatic. Replica is actually the prequel to the game :P
-@:|2|CanOfCorn|Yes! I can't wait! Nie Automatic is one of my favorite games.
+@:|2|CanOfCorn|Yes! I can't wait! Nie Automatic is one of my favorite games.|C
 @:|0|CanOfCorn|If you're interested in the Nie series, I could stream some gameplay for you some time.
 @:|0|CanOfCorn|But it's a single player game, so it might not be as fun for you...
 @:|0|CanOfCorn|Up to you, though :D
@@ -34,7 +34,7 @@
 @:|0|CanOfCorn|And by different, I mean NERFED.
 @:|0|CanOfCorn|Why'd they have to take my favorite character and do that :(
 *:|0|1|2|It was his tenacity, wasn't it?|It was his damage, wasn't it?
-@:|1|CanOfCorn|Yeah! They took like, 1.5s off the duration...
+@:|1|CanOfCorn|Yeah! They took like, 1.5s off the duration...|C
 @:|1|CanOfCorn|Which doesn't sound like a lot.
 @:|1|CanOfCorn|But it pretty long when you're fighting.
 @:|2|CanOfCorn|xD that's Didley, actually.
@@ -55,7 +55,7 @@
 @:|0|CanOfCorn|You played some Karrin tonight, didn't you?
 @:|0|CanOfCorn|What did you think? They nerfed some things in her kit too.
 *:|0|1|2|Yeah, two abilities, I think.|Yeah, three abilities, I think.
-@:|1|CanOfCorn|Yuuup.
+@:|1|CanOfCorn|Yuuup.|C
 @:|1|CanOfCorn|Sucks cos her parry into daze is a huge part of why she could put out so much damage.
 @:|1|CanOfCorn|On top of that, they lowered damage to her combo scaling.
 @:|2|CanOfCorn|Ah, yeah looking at the patch notes, it can be a little confusing.
@@ -70,4 +70,8 @@
 @:|0|CanOfCorn|...
 @:|0|CanOfCorn|Welp.
 @:|0|CanOfCorn|My family is calling me for dinner.
+@:|0|CanOfCorn|At least it's doesn't smell as spicy as last night...
+@:|0|CanOfCorn|I can't handle spice, and my mom knows it.
+@:|0|CanOfCorn|But my sister loves to mess with my taste buds...
+@:|0|CanOfCorn|And food is food.She likes to remind me that beggars can't be choosers.
 @:|0|CanOfCorn|Hit me up tomorrow to play or something :D
