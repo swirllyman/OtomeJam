@@ -15,7 +15,7 @@ public class PlayerAccountLogin : MonoBehaviour
     [Space]
     public PlayerAccount[] playerAccounts;
     public NewPlayerAccount currentSetupAccount;
-    
+
 
 
     int currentAccountToDelete = 0;
@@ -86,7 +86,7 @@ public class PlayerAccountLogin : MonoBehaviour
     public void DeleteAccount(int accountID)
     {
         currentAccountToDelete = accountID;
-        accountDeleteText.text = "Delete <b>Account " + (accountID+1) + "</b>?\n\n<b>Warning!</b>\nThis Cannot Be Undone.";
+        accountDeleteText.text = "Delete <b>Account " + (accountID + 1) + "</b>?\n\n<b>Warning!</b>\nThis Cannot Be Undone.";
         SwapPanels(2);
     }
 
@@ -106,10 +106,12 @@ public class PlayerAccountLogin : MonoBehaviour
     public void LoginToGame(int accountID)
     {
         //TODO: Setup Any Login Info For Returning Players
+        GameObject manager = GameObject.FindGameObjectWithTag("Manager");
+        Debug.Log(manager);
+        manager.GetComponent<DayManager>().startTheFuckingGame();
         GameManager.singleton.currentPlayerAccount = playerAccounts[accountID];
         GameManager.singleton.SetupLocalPlayer();
         GameManager.singleton.UpdateLocalPlayerPlaying("");
-
         SwapPanels(3);
     }
 
@@ -208,7 +210,7 @@ public struct PlayerAccount
     public string username;
     public int pronounID, iconID;
     public float playTime;
-} 
+}
 
 [System.Serializable]
 public class NewPlayerAccount

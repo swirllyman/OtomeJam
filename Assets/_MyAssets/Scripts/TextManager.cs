@@ -7,10 +7,12 @@ public class TextManager : MonoBehaviour
     [SerializeField] private int channel;
     [SerializeField] private DialogueEditter dialogueEditter;
     [SerializeField] string path = "";
+    [SerializeField] string[] paths;
     [SerializeField] Characters pocky = new Characters();
     [SerializeField] Characters corn = new Characters();
     [SerializeField] TMPro.TextMeshProUGUI choice1Button;
     [SerializeField] TMPro.TextMeshProUGUI choice2Button;
+    [SerializeField] TextManager newsTextManager;
     public GameObject notification;
     public bool readNextLine = true;
     string choiceResult = "";
@@ -19,12 +21,18 @@ public class TextManager : MonoBehaviour
     Image image = null;
     DayManager timeTracker;
     textFileHolder textHolder;
-    enum txtType { DIALOGUE, CHOICE, NEWS };
+    enum txtType { DIALOGUE, CHOICE, NEWS, END };
     string currentChoiceId = "";
+    int currentNewsId = 1;
     txtType currentType;
+    static string currentGameChoice;
+    static int dayForNews;
+    int dayTracker;
+    bool newsBeingRead = false;
     bool hotKeyHit = false;
-    string newsGameName;
+    bool doneReading = false;
 
+    string newsUpdate = "";
     void Awake()
     {
         GameObject manager = GameObject.FindWithTag("Manager");
@@ -32,44 +40,49 @@ public class TextManager : MonoBehaviour
         timeTracker = manager.GetComponent<DayManager>();
         timeTracker.getTimeTracker().AddListener(startMainText);
         timeTracker.getDayChange().AddListener(onDayChange);
+
     }
 
     public void startMainText(dayPhases phase)
     {
-        switch (phase)
+        if (path != "")
         {
-            case dayPhases.MORNING:
-                if (channel == 1)
-                {
-                    StartCoroutine(waitForText());
-                    if (gameObject.transform.GetChild(0).gameObject.activeSelf == false)
+            switch (phase)
+            {
+                case dayPhases.MORNING:
+                    if (channel == 1 || channel == 2)
                     {
-                        notification.SetActive(true);
+                        newsBeingRead = true;
+                        StartCoroutine(waitForText());
+                        if (gameObject.transform.GetChild(0).gameObject.activeSelf == false)
+                        {
+                            notification.SetActive(true);
+                        }
+                        else
+                        {
+                            notification.SetActive(false);
+                        }
                     }
-                    else
+                    break;
+                case dayPhases.AFTERNOON:
+                    if (channel == 2 || channel == 3 || channel == 4)
                     {
-                        notification.SetActive(false);
-                    }
-                }
-                break;
-            case dayPhases.AFTERNOON:
-                if (channel == 2 || channel == 3 || channel == 4)
-                {
-                    StartCoroutine(waitForText());
-                    if (gameObject.transform.GetChild(0).gameObject.activeSelf == false)
-                    {
-                        notification.SetActive(true);
-                    }
-                    else
-                    {
-                        notification.SetActive(false);
-                    }
+                        StartCoroutine(waitForText());
+                        if (gameObject.transform.GetChild(0).gameObject.activeSelf == false)
+                        {
+                            notification.SetActive(true);
+                        }
+                        else
+                        {
+                            notification.SetActive(false);
+                        }
 
-                }
-                break;
-            case dayPhases.NIGHT:
-                Debug.Log("testing night");
-                break;
+                    }
+                    break;
+                case dayPhases.NIGHT:
+                    Debug.Log("testing night");
+                    break;
+            }
         }
     }
 
@@ -82,44 +95,40 @@ public class TextManager : MonoBehaviour
     }
     IEnumerator waitForText()
     {
-        string[] splitDialogue;
+        string[] splitDialogue = null;
         if (path != "")
         {
-            foreach (string line in File.ReadLines(path))
+            if (channel == 2 && newsBeingRead)
             {
-                Debug.Log(gameObject + "am I working");
-                if (hotKeyHit == true)
+                for (int i = 1; i <= dayForNews; i++)
                 {
-                    continue;
+                    newsDays newsToRead = (newsDays)textHolder.newsText[i];
+                    path = newsToRead.path1;
+                    StartCoroutine(readingText(splitDialogue));
+                    yield return new WaitUntil(() => doneReading == true);
+                    doneReading = false;
+                    path = newsToRead.path2;
+                    StartCoroutine(readingText(splitDialogue));
+                    yield return new WaitUntil(() => doneReading == true);
+                    doneReading = false;
                 }
-                yield return new WaitUntil(() => readNextLine == true);
-
-                splitDialogue = line.Split('|');
-
-                if (splitDialogue[0].Contains("@:"))
+            }
+            else
+            {
+                Debug.Log(path);
+                StartCoroutine(readingText(splitDialogue));
+                yield return new WaitUntil(() => doneReading == true);
+                doneReading = false;
+                if (channel == 2 && newsBeingRead == true)
                 {
-                    currentType = txtType.DIALOGUE;
+                    StartCoroutine(waitForText());
                 }
-                else if (splitDialogue[0].Contains("*:"))
-                {
-                    currentType = txtType.CHOICE;
-                }
-                else if (splitDialogue[0].Contains("~:" + currentChoiceId))
-                {
-
-                    currentType = txtType.NEWS;
-                }
-                else if (splitDialogue[0].Contains("?/"))
-                {
-                    break;
-                }
-                settingState(splitDialogue);
             }
             hotKeyHit = false;
             if (channel == 1)
             {
                 yield return new WaitForSeconds(4f);
-                timeTracker.night();
+                timeTracker.afternoon();
             }
             else if (channel == 3 || channel == 4)
             {
@@ -127,10 +136,63 @@ public class TextManager : MonoBehaviour
             }
         }
     }
+
+    IEnumerator readingText(string[] splitDialogue)
+    {
+        foreach (string line in File.ReadLines(path))
+        {
+            if (channel == 2)
+            {
+
+            }
+            if (hotKeyHit == true)
+            {
+                continue;
+            }
+            yield return new WaitUntil(() => readNextLine == true);
+            Debug.Log(line);
+            splitDialogue = line.Split('|');
+            if (channel == 2)
+            {
+
+            }
+            if (splitDialogue[0].Contains("@:"))
+            {
+                currentType = txtType.DIALOGUE;
+            }
+            else if (splitDialogue[0].Contains("*:"))
+            {
+                currentType = txtType.CHOICE;
+            }
+            else if (splitDialogue[0].Contains("~:" + currentNewsId.ToString()))
+            {
+                currentType = txtType.NEWS;
+            }
+            else if (splitDialogue[0].Contains("?/"))
+            {
+                Debug.Log(newsUpdate);
+                settingText(newsUpdate, "News Bot", null);
+                newsUpdate = "";
+                readNextLine = false;
+                continue;
+            }
+            else if (splitDialogue[0].Contains("!:"))
+            {
+                currentType = txtType.END;
+            }
+            else if (splitDialogue[0].Contains("?:/"))
+            {
+                currentNewsId++;
+                break;
+            }
+            settingState(splitDialogue);
+        }
+        doneReading = true;
+    }
     void settingState(string[] splitDialogue)
     {
         Image icon = null;
-        if (currentChoiceId.Contains(splitDialogue[1]) || splitDialogue[1].Contains("0"))
+        if (splitDialogue.Length < 2 || currentChoiceId.Contains(splitDialogue[1]) || splitDialogue[1].Contains("0"))
         {
             switch (currentType)
             {
@@ -146,6 +208,7 @@ public class TextManager : MonoBehaviour
                     }
                     splitDialogue[3] = splitDialogue[3].Replace("<he/she/they>", "she");
                     splitDialogue[3] = splitDialogue[3].Replace("<pnm>", "Kaine");
+
                     settingText(splitDialogue[3], splitDialogue[2], icon);
                     break;
                 case txtType.CHOICE:
@@ -165,7 +228,27 @@ public class TextManager : MonoBehaviour
                     settingChoices(splitDialogue);
                     break;
                 case txtType.NEWS:
-
+                    if (newsUpdate != "")
+                    {
+                        newsUpdate += "\n" + splitDialogue[2];
+                    }
+                    else
+                    {
+                        newsUpdate = splitDialogue[2];
+                    }
+                    break;
+                case txtType.END:
+                    if (channel == 1)
+                    {
+                        newsBeingRead = false;
+                        dayForNews = dayTracker;
+                        newsTextManager.path = (string)textHolder.newsBotText[dayForNews];
+                    }
+                    if (channel == 2)
+                    {
+                        currentGameChoice = splitDialogue[2];
+                        newsBeingRead = true;
+                    }
                     break;
             }
         }
@@ -200,15 +283,19 @@ public class TextManager : MonoBehaviour
         {
             case 1:
                 path = (string)textHolder.mainServerText[day];
+                dayTracker = day;
                 break;
-            // case 2:
-            //     path = (string)textHolder.newsText[newsGameName];
-            //     break;
+            case 2:
+                if (currentGameChoice != null)
+                {
+                    path = (string)textHolder.newsText[currentGameChoice];
+                }
+                break;
             case 3:
-                path = (string)textHolder.canDmText[day];
+                // path = (string)textHolder.pokyDmText[day];
                 break;
             case 4:
-                path = (string)textHolder.pokyDmText[day];
+                path = (string)textHolder.canDmText[day];
                 break;
         }
 

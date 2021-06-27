@@ -1,0 +1,13 @@
+@:|0|NewsBot|Hey <player's name>!
+@:|0|NewsBot|Welcome to NewsBot, your one-stop for all game updates and patch notes.
+@:|0|NewsBot|Make sure you check this channel daily for all the latest news about the games you play.
+@:|0|NewsBot|You can also SUBSCRIBE to your favorite game to get the most important news highlights!
+@:|0|NewsBot|It looks like you've been invited to join Bash Bros Server and Flows! Server.
+@:|0|NewsBot|Would you like to Subscribe to one of these now?
+*:|0|1|2|Subscribe to Bash Bros.|Subscribe to Flows!.
+@:|1|NewsBot|Great! Bash Bros has been added to your Subscriptions.
+@:|2|NewsBot|Great! Flows! has been added to your Subscriptions.
+@:|0|NewsBot|Important game news will now be highlighted for your ease of access.
+@:|0|NewsBot|Enjoy!
+!:|1|bash
+!:|2|flows

@@ -1,32 +1,31 @@
-~:1
- In celebration of Nie Replica’s 10 year anniversary, we’ve decided to bring over two new characters from Nie Automatic: B2 and 2A! Check out the shop in the in-game launcher to access this free DLC. We’re also releasing their original, Nie Replica skins for 50% off for a limited time, at 500 gems each. Don’t miss out on a chance to celebrate the 10th year anniversary of the Nie-verse!
- ?/
- ~:2
- "We’ve noticed a few characters in the game are getting a little out of hand in pro play, so we’ve decided to tune them down to make them a little more manageable for contenders to put up a fair fight.
-
-WOWser - This tanky bruiser does a little too much damage for his tenacity, making it difficult for melee match-ups to get in close and properly duke it out with him. We’re dialing back his tenacity duration to make it possible to find pockets of time to punish him.
-
-TENACIOUS-ME
-Unstoppable Duration 3s -> 1.5s
-
-Didley - With the updates to some of the items he can already abuse, we’re also dialing back the damage output he can execute with his Final Bash. (Trust us, you don’t want to see him with a Anti-Matter Ball.)
-
-Herald from Above
-Damage: 500AD (center), 250AD (AoE splash) -> 400 (center), 150 (AoE splash)
-
-Karrin - Karrin is currently top tier in pro play, and with very little in her kit to allow time for enemies to punish her, she has reigned supreme for quite some time. With the new item and some of the changes of older items, she’s become an absolute monster, for lack of a better term. We’re tweaking a lot of her kit to make way for newer faces.
-
-Dis-Parry-ging
-Cooldown Reduction 7s -> 10s
-Dazed Duration 3s -> 1.5s
-
-Karrin-You
-Damage: 100AD 1st hit, up to 500 AD on fifth hit -> 50 1st hit, up to 300 on fifth"
-?/
-~:3
+~:1|0|In celebration of Nie Replica’s 10 year anniversary, we’ve decided to bring over two new characters from Nie Automatic: B2 and 2A! Check out the shop in the in-game launcher to access this free DLC. We’re also releasing their original, Nie Replica skins for 50% off for a limited time, at 500 gems each. Don’t miss out on a chance to celebrate the 10th year anniversary of the Nie-verse!
+?/|0|
+~:1|0| "We’ve noticed a few characters in the game are getting a little out of hand in pro play, so we’ve decided to tune them down to make them a little more manageable for contenders to put up a fair fight.
+~:1|0| 
+~:1|0| WOWser - This tanky bruiser does a little too much damage for his tenacity, making it difficult for melee match-ups to get in close and properly duke it out with him. We’re dialing back his tenacity duration to make it possible to find pockets of time to punish him.
+~:1|0| 
+~:1|0| TENACIOUS-ME
+~:1|0| Unstoppable Duration 3s -> 1.5s
+~:1|0| 
+~:1|0| Didley - With the updates to some of the items he can already abuse, we’re also dialing back the damage output he can execute with his Final Bash. (Trust us, you don’t want to see him with a Anti-Matter Ball.)
+~:1|0| 
+~:1|0| Herald from Above
+~:1|0| Damage: 500AD (center), 250AD (AoE splash) -> 400 (center), 150 (AoE splash)
+~:1|0| 
+~:1|0| Karrin - Karrin is currently top tier in pro play, and with very little in her kit to allow time for enemies to punish her, she has reigned supreme for quite some time. With the new item and some of the changes of older items, she’s become an absolute monster, for lack of a better term. We’re tweaking a lot of her kit to make way for newer faces.
+~:1|0| 
+~:1|0| Dis-Parry-ging
+~:1|0| Cooldown Reduction 7s -> 10s
+~:1|0| Dazed Duration 3s -> 1.5s
+~:1|0| 
+~:1|0| Karrin-You
+~:1|0| Damage: 100AD 1st hit, up to 500 AD on fifth hit -> 50 1st hit, up to 300 on fifth"
+?/|0|
+?:/|0|
+~:2
 To follow up our B2 and 2A character releases, we’re also introducing a new Event Map that will feature an all-new game mode! Team up with your friends in a Capture the Flag meets King of the Hill, battle of the fittest. Complete Event missions to earn some free gems and score event loot in the shop. We’ll also have a ‘Desert Profile Background’ available for a limited time at 250 gems.
 ?/
-~:4
+~:2
 "We decided it’s about time to change up some of the older items and give them some fresh upgrades. With all the new items released, the old ones have been feeling more and more lack-luster. We want to bump them up so they can have a chance to shine again. On top of all of that, we’re introducing another new item to the game that we think should add some interesting flavor.
 
 NEW! Anti-Matter Ball - Consumed on throw. This item creates a dark hole in the area that removes enemies from combat for 3s. Removed enemies are untargetable for the duration. Upon re-entry into combat, enemies will be blinded for 1.5s.
@@ -37,10 +36,12 @@ The BEAWR - Added: Updated Visual of The BEAWR to make him more cute (and that m
 
 Shrooms - Added: Shrooms now give bonus jump distance, bonus range, and bonus defensive stats."
 ?/
-~:5
+?:/
+~:4
 "With the instant feedback we’ve been given concerning the widespread popularity of B2 and 2A from Nie Automatic, we’ve decided to add in one more character from the Nie-verse: Raina from Nie Replica! We’re planning to do an early roll-out in the next month onto our beta servers, but our plan is that she’ll be fully released and playable by Patch 1.10.
 
 We’ve also decided to do things a little differently this time. We’re asking you, the community, to design Raina’s release skin! Submissions will be open for the next three months, with voting to happen in October. For more information, please visit our Contest Guidelines page here. The lucky winner will have their design brought to life and featured as Raina’s release skin (along with some other really sick prizes)! 
 
 Good luck to you all!"
 ?/
+?:/

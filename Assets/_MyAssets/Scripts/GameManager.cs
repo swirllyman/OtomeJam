@@ -9,10 +9,10 @@ public class GameManager : MonoBehaviour
     public static GameManager singleton;
     public static string playerName;
     public static Sprite playerIcon;
-
+    public int saveDay;
     public LocalPlayerUI localUI;
     public Sprite[] allIcons;
-    
+
     public PlayerAccount currentPlayerAccount;
 
     private void Awake()

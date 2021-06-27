@@ -1,15 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+public class newsDays
+{
+    public string path1 = "";
+    public string path2 = "";
+}
 public class textFileHolder : MonoBehaviour
 {
     public Hashtable mainServerText = new Hashtable();
     public Hashtable canDmText = new Hashtable();
     public Hashtable pokyDmText = new Hashtable();
     public Hashtable newsText = new Hashtable();
+    public Hashtable newsBotText = new Hashtable();
+
+    public newsDays newsDay1 = new newsDays();
+    public newsDays newsDay2 = new newsDays();
+    public newsDays newsDay3 = new newsDays();
     private void Start()
     {
+        newsDay1.path1 = flows;
+        newsDay1.path2 = bashBros;
+        newsDay2.path1 = forTheQueen;
+        newsDay2.path2 = cryToResponsibility;
+        newsDay3.path1 = doublePlays;
+        newsDay3.path1 = yggdrasil;
         mainServerText.Add(1, mainServerDay1);
         mainServerText.Add(2, mainServerDay2);
         mainServerText.Add(3, mainServerDay3);
@@ -21,12 +36,12 @@ public class textFileHolder : MonoBehaviour
         pokyDmText.Add(2, pokyDazeDay2);
         pokyDmText.Add(3, pokyDazeDay3);
         pokyDmText.Add(4, pokyDazeDay4);
-        newsText.Add("flows", flows);
-        newsText.Add("bash", bashBros);
-        newsText.Add("queen", forTheQueen);
-        newsText.Add("cry", cryToResponsibility);
-        newsText.Add("ygg", yggdrasil);
-        newsText.Add("double", doublePlays);
+        newsText.Add(1, newsDay1);
+        newsText.Add(2, newsDay2);
+        newsText.Add(3, newsDay3);
+        newsBotText.Add(1, newsBotDay1);
+        newsBotText.Add(2, newsBotDay2);
+        newsBotText.Add(3, newsBotDay3);
     }
     [SerializeField] private string mainServerDay1;
     [SerializeField] private string mainServerDay2;
@@ -39,6 +54,10 @@ public class textFileHolder : MonoBehaviour
     [SerializeField] private string pokyDazeDay2;
     [SerializeField] private string pokyDazeDay3;
     [SerializeField] private string pokyDazeDay4;
+    [SerializeField] private string newsBotDay1;
+    [SerializeField] private string newsBotDay2;
+    [SerializeField] private string newsBotDay3;
+
     [SerializeField] private string flows;
     [SerializeField] private string bashBros;
     [SerializeField] private string forTheQueen;

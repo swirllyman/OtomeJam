@@ -17,18 +17,23 @@ public class DayManager : MonoBehaviour
     TimeTracker timeTracker = new TimeTracker();
 
     int day = 1;
-    void Start()
+    // void Start()
+    // {
+    //     StartCoroutine(waitForStart());
+    // }
+    public void startTheFuckingGame()
     {
         StartCoroutine(waitForStart());
     }
-    IEnumerator waitForStart()
+    public IEnumerator waitForStart()
     {
+        Debug.Log("HELLO FUCKING");
         yield return new WaitForSeconds(2f);
-        Debug.Log("I am running");
         onChangeOfDay(day);
     }
-    void onChangeOfDay(int x)
+    public void onChangeOfDay(int x)
     {
+
         dayChange.Invoke(x);
         morning();
     }
@@ -37,6 +42,7 @@ public class DayManager : MonoBehaviour
     public void morning()
     {
         // News bot first thing and start of dialogue
+        Debug.Log("Morning");
         timeTracker.Invoke(dayPhases.MORNING);
     }
 
