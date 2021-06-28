@@ -7,7 +7,7 @@
 @:|2|PockyDaze|Ugh... A little...
 @:|2|PockyDaze|I was up later than usual.
 @:|2|CanOfCorn|Too relateable xD
-@:|0|CanOfCorn|OH! OH! <player's name>! The updates for Bash Bros :o
+@:|0|CanOfCorn|OH! OH! <pnm>! The updates for Bash Bros :o
 @:|0|CanOfCorn|Did you see them?
 *:|0|1|2|Of course I did!|No, I haven't read them yet...
 @:|1|CanOfCorn|Yesss! I'm sooo excited. They're really doing so much for Nie's verse.
@@ -36,3 +36,4 @@
 @:|7|CanOfCorn|And I can't wait to see this "dangerously cute" visual update xD
 @:|8|CanOfCorn|Nooo it was The BEAWR silly :3 RAWR.
 @:|8|CanOfCorn|They removed Caps from the game and added its bonuses to Shrooms.
+!:|0|

@@ -12,8 +12,8 @@ public class DialogueEditter : MonoBehaviour
     bool firstAttached = true;
     string textToRecieve;
     string textName;
-    Image icon;
-    public void creatingMessage(string textToRecieve, string textName, Image icon)
+    Sprite icon;
+    public void creatingMessage(string textToRecieve, string textName, Sprite icon)
     {
         this.textToRecieve = textToRecieve;
         this.textName = textName;

@@ -1,0 +1,13 @@
+~:5|0|" Join up with your friends for this one, because Divangr is the newest (and we’d argue, most difficult) boss to plague Yggdrasil. Expect a visit from Illian, our handy-dandy, info-dump Raven to pay you a visit with a new quest line, which will lead you to clues about where this dark monster-beast lives, and how to defeat it!
+~:5|0|
+~:5|0|(PSST! Divangr has a small chance to drop something special to decorate your homes with…)"
+?/|0|
+~:5|0|"The newest addition to our biomes is Quiet Eden, a little slice of nightmarish paradise. During the day, which will always be sunny and cool, you will find only neutral mobs roaming the area. New Birch Trees, Red Mushrooms, and Puffy Dandelions have been added to the list of crafting material. Collect these to unlock new crafting recipes.
+~:5|0|
+~:5|0|Where’s the danger, you may ask? At night, Quiet Eden becomes a place of cold darkness that threatens to chill one to death if explosed for too long. A brand new, silent enemie called Shadoe, also sneaks around, threatening to drag you into the darkness to consume you. Make a home with light quickly, or risk losing yourself forever..."
+?/|0|
+~:5|0|"In our most recent survey, the community has unanimously spoke. You all want PVP and we heard you! Now introducing PVP maps. Tired of playing along with your friends, or of them taking all the materials you spent your time gathering? Set your game to PVP in map settings while in the file creation screen in order to face head-to-head with your buddies.
+~:5|0|
+~:5|0|We’re sad to say that unfortunately this means that any map you have WITHOUT PVP will have to remain that way. Yes, that means we haven’t created a way to change your current servers to PVP; You need to create a brand new save file if you want to switch.  We’re hoping in the near future to change this so you can freely swap between friendly and PVP on any saved file you have."
+?/|0|
+?:/|0|

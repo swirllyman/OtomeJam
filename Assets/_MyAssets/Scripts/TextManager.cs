@@ -15,15 +15,17 @@ public class TextManager : MonoBehaviour
     [SerializeField] TextManager newsTextManager;
     [SerializeField] TextManager pokyTextManager;
     [SerializeField] TextManager cornTextManager;
+    [SerializeField] Sprite botImage;
     public GameObject dialogueObj;
     public GameObject notification;
     public bool readNextLine = true;
     string choiceResult = "";
     string choice1 = "";
     string choice2 = "";
-    Image image = null;
+    Sprite image = null;
     DayManager timeTracker;
     textFileHolder textHolder;
+    GameManager gameManager;
     enum txtType { DIALOGUE, CHOICE, NEWS, END };
     string currentChoiceId = "";
     int currentNewsId = 1;
@@ -43,6 +45,7 @@ public class TextManager : MonoBehaviour
     void Awake()
     {
         GameObject manager = GameObject.FindWithTag("Manager");
+        gameManager = manager.GetComponent<GameManager>();
         textHolder = manager.GetComponent<textFileHolder>();
         timeTracker = manager.GetComponent<DayManager>();
         timeTracker.getTimeTracker().AddListener(startMainText);
@@ -169,6 +172,7 @@ public class TextManager : MonoBehaviour
             }
             else if (channel == 3 || channel == 4)
             {
+                yield return new WaitForSeconds(4f);
                 timeTracker.night();
             }
         }
@@ -212,7 +216,7 @@ public class TextManager : MonoBehaviour
                 }
                 else
                 {
-                    settingText(newsUpdate, "News Bot", null);
+                    settingText(newsUpdate, "News Bot", botImage);
                     newsUpdate = "";
                     readNextLine = false;
                 }
@@ -236,7 +240,7 @@ public class TextManager : MonoBehaviour
     }
     void settingState(string[] splitDialogue)
     {
-        Image icon = null;
+        Sprite icon = null;
         if (splitDialogue.Length < 2 || currentChoiceId.Contains(splitDialogue[1]) || splitDialogue[1].Contains("0"))
         {
             switch (currentType)
@@ -251,8 +255,22 @@ public class TextManager : MonoBehaviour
                     {
                         icon = pocky.getIcon();
                     }
-                    splitDialogue[3] = splitDialogue[3].Replace("<he/she/they>", "she");
-                    splitDialogue[3] = splitDialogue[3].Replace("<pnm>", "Kaine");
+                    else if (splitDialogue[2].Contains("PlayerName"))
+                    {
+                        splitDialogue[2] = splitDialogue[2].Replace("PlayerName", gameManager.currentPlayerAccount.username);
+
+                        icon = gameManager.allIcons[gameManager.currentPlayerAccount.iconID];
+                    }
+                    else
+                    {
+                        icon = botImage;
+                    }
+                    Debug.Log(icon);
+                    splitDialogue[3] = splitDialogue[3].Replace("<he/she/they>", gameManager.currentPlayerAccount.pronounID == 0 ? "they" :
+                    gameManager.currentPlayerAccount.pronounID == 1 ? "she" : "he");
+                    splitDialogue[3] = splitDialogue[3].Replace("<him/her/them>", gameManager.currentPlayerAccount.pronounID == 0 ? "them" :
+                    gameManager.currentPlayerAccount.pronounID == 1 ? "her" : "him");
+                    splitDialogue[3] = splitDialogue[3].Replace("<pnm>", gameManager.currentPlayerAccount.username);
                     if (splitDialogue.Length > 4)
                     {
                         ReputationSystem repSystem = new ReputationSystem();
@@ -344,21 +362,22 @@ public class TextManager : MonoBehaviour
         button1.SetActive(false);
         button2.SetActive(false);
         currentChoiceId = choice;
+        image = gameManager.allIcons[gameManager.currentPlayerAccount.iconID];
         settingText(textToSend, "Player Name", image);
 
     }
     void settingChoices(string[] splitDialogue)
     {
-        choice1 = splitDialogue[4];
-        choice2 = splitDialogue[5];
+        choice1 = "A: " + splitDialogue[4];
+        choice2 = "B: " + splitDialogue[5];
         choice1Button.text = choice1;
         choice2Button.text = choice2;
     }
-    void settingText(string msgText, string name, Image icon)
+    void settingText(string msgText, string name, Sprite icon)
     {
         sendNextText(msgText, name, icon);
     }
-    public void sendNextText(string textToSend, string textName, Image icon)
+    public void sendNextText(string textToSend, string textName, Sprite icon)
     {
         dialogueEditter.creatingMessage(textToSend, textName, icon);
     }

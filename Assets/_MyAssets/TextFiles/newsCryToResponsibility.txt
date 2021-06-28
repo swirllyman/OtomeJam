@@ -1,0 +1,29 @@
+~:3|0|"A special July 4th event, live now! Gear up with your friends in this event-exclusive, free-for-all game mode. Earn points for stylized kills and receive event Flags to exchange with the event shop for some cool, Independence-themed transmogs and items. Buy an equippable (and consumable) firework that you can set off in waiting lobbies with your team.
+~:3|0|
+~:3|0|<mark=#AEDEFB60>This is the first year we’re doing something like this</mark>, and hopefully it won’t be the last. If you enjoy the event, be sure to stop by our Tweeter or Instapost to vote and like the event content. With enough community feedback, we’ll be sure to bring this back, and more!"
+?/|0|
+~:3|0|"Traverse the open ocean in our new Water World map! Board abandoned boats and sail to nearby islands to secure safe points, and attack/defend against enemies to control the seas. Boats are equipped with a short range gatling gun, and a long range cannon, as well as a boarding cannon. Position yourself to take out enemies, or board their ships and get in melee to overtake them.
+~:3|0|
+~:3|0|Known Issues: If you encounter any other issues, please contact us at support@crytoresponsibility.com or post in the #bug-report channel in our community server.
+~:3|0|
+~:3|0|In-Game Lobby: Players will be in lobby, but will not appear in lobby. To fix, remake lobby and rejoin.
+~:3|0|<mark=#AEDEFB60>Visual: Sometimes the water will glitch over the boat, so it seems like you’re underwater. Tab out and tab in to fix.</mark>
+~:3|0|Sound: Sometimes you can still hear your boat once you’ve docked on an island. We like to call them ghost ships :P"
+?/|0|
+~:3|0|"Back by popular demand: The Rainbow Dagger , Assassin’s Cloak, and more! That’s right, we heard your requests and suggestions, and here for all of you, our most popular past transmogs as well as some brand new ones! Check out the CtR in-game shop to try these transmogs on, and go into your next battle in style.
+~:3|0|
+~:3|0|Gems for transmogs can be purchased via our website. A special promotion for new players is also available, so be sure to pick up this promo pack of 750 gems + 1 random, Uncommon transmog!"
+?/|0|
+~:4|0|"The 5-friend cap is now gone! Custom game modes are live, with a brand new 10-person invite cap! Choose your rules, or mix them up to create something new. Wanna play free-for-all king of the hill? <mark=#AEDEFB60>Wanna play flashlight tag?</mark> It’s up to you!.Choose your map, as well as the items and weapons you’ll find on it to spice things up. Lobby with up to 9 of your friends for a 5v5, or even a 2v2v2v2v2! It’s all what you and your group decide.
+~:4|0|
+~:4|0|If you find a particularly fun rule set, be sure to share with the rest of us by posting your house rules in #custom-game-suggestions channel in our community server! We look forward to all the crazy things Happy gaming!"
+?/|0|
+~:4|0|" Introducing <mark=#AEDEFB60>UniLeague, Season 1</mark>! Now you can form a team with up to 4 other friends and fight 5v5s along an 8-team bracket to find out whose team is better!"
+~:4|0|
+~:4|0|Teams are seeded according to the average team rank, and each player is given a UniLeague rank based on where they are in ranked queue. We’re hoping this will create overall better and more fair matchups (unless you’re bad and you queue with all your god friends! But that’s on you :P). Climb the bracket and see how far you can go. Win awesome UniLeague prizes, like Random Transmog Chests or Avi Icons.
+~:4|0|
+~:4|0|We understand that because this is a new feature, there will be bugs and issues to expect. We’d like to thank the community in advance for helping with the Beta testing of UniLeague, and promise that we will do our best to address any issues that come up in this weekend’s first rendition, as well as every one after. Trust us, it’ll only get better from here.
+~:4|0|
+~:4|0|Again, this is the first ever UniLeague event, so be sure to check it out! We’ll also be streaming some of the games to our YouView channel, so even if you don’t want to play, you can still watch and cheer for your friends! Let’s go!!!"
+?/|0|
+?:/|0|

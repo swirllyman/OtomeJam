@@ -1,0 +1,11 @@
+@:|0|NewsBot|Hey <pnm>!
+@:|0|NewsBot|It looks like you've been invited to join For The Queen Server and Cry To Responsibility Server.
+@:|0|NewsBot|Would you like to Subscribe to one of these now?
+*:|0|1|2|Subscribe to For The Queen.|Subscribe to Cry To Responsibility.
+@:|1|NewsBot|Great! Your current subscription has been cancelled.
+@:|1|NewsBot|You are now Subscribed to For The Queen.
+@:|2|NewsBot|Great! Your current subscription has been cancelled.
+@:|2|NewsBot|You are now Subscribed to Cry to Responsibility.
+@:|0|NewsBot|Thanks for using NewsBot!
+!:|1|queen
+!:|2|cry

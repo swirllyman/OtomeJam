@@ -1,4 +1,4 @@
-@:|0|NewsBot|Hey <player's name>!
+@:|0|NewsBot|Hey <pnm>!
 @:|0|NewsBot|Welcome to NewsBot, your one-stop for all game updates and patch notes.
 @:|0|NewsBot|Make sure you check this channel daily for all the latest news about the games you play.
 @:|0|NewsBot|You can also SUBSCRIBE to your favorite game to get the most important news highlights!

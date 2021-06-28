@@ -5,7 +5,11 @@ public class Characters : MonoBehaviour
     [SerializeField] private string characterName;
     [SerializeField] private string ign;
     [SerializeField] private int age;
-    [SerializeField] private Image icon;
+    [SerializeField] private Sprite icon;
+
+    public Sprite bronzeSelfie;
+    public Sprite silverSelfie;
+    public Sprite goldSelfie;
     [SerializeField] private string bio;
     [SerializeField] private string likes;
     [SerializeField] private string dislikes;
@@ -39,11 +43,11 @@ public class Characters : MonoBehaviour
         this.age = age;
     }
 
-    public Image getIcon()
+    public Sprite getIcon()
     {
         return icon;
     }
-    public void setIcon(Image icon)
+    public void setIcon(Sprite icon)
     {
         this.icon = icon;
     }

@@ -14,10 +14,9 @@
 ~:2|0|"NEW top rated ranked song of the month is... rhythm roll please... Kiramodoki by JAimer, mapped by JustPockysPls. Congratulations to JustPockyPls, whose rhythm map will be featured for the next month on our loading screen. Also, a huge thank you to our active community and all of those who voted!
 ~:2|0|Check out all available difficulties of JustPockyPls' rhythm map at the link here: 'Kiramodoki' by JAimer."
 ?/|0|
-~:4
-"We’ve got a huge update in store for the end of the year! Patch 1.8 will feature long-awaited Rhythm Map skins, friend lobbies, and more avatar customizations!
-You’ll be able to reskin your beats as well as your backgrounds, along with SFX! Once again, we’ll be updating our wizard to make it easy for you to implement your own customizations, regardless of your level of experience. betaMarket will also have a new tab for map skins so you can share your own creations or find others that you like. Save and upvote your favorites!
-Last year, we talked about creating hangout areas for friends. Well, they’re finally coming! Our ‘After Party’ lobbies will allow you to hangout with friends in public or private servers, and queue up selected music from your rhythm maps. With this, we’re releasing all new CUSTOMIZABLE AVATARS. Play ranked songs to earn points for the new Avatar Shop and customize your avatar with a new look before you pop into After Party! We’ll be releasing a beta version of this before full release, for feedback and bug testing.
-Stay up to date for more information, coming soon!"
-?/
+~:4|0|"We’ve got a huge update in store for the end of the year! Patch 1.8 will feature long-awaited Rhythm Map skins, friend lobbies, and more avatar customizations!
+~:4|0|You’ll be able to reskin your beats as well as your backgrounds, along with SFX! Once again, we’ll be updating our wizard to make it easy for you to implement your own customizations, regardless of your level of experience. betaMarket will also have a new tab for map skins so you can share your own creations or find others that you like. Save and upvote your favorites!
+~:4|0|Last year, we talked about creating hangout areas for friends. Well, they’re finally coming! Our ‘After Party’ lobbies will allow you to hangout with friends in public or private servers, and queue up selected music from your rhythm maps. With this, we’re releasing all new CUSTOMIZABLE AVATARS. Play ranked songs to earn points for the new Avatar Shop and customize your avatar with a new look before you pop into After Party! We’ll be releasing a beta version of this before full release, for feedback and bug testing.
+~:4|0|Stay up to date for more information, coming soon!"
+?/|0|
 ?:/|0|
