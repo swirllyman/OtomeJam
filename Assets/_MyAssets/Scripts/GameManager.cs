@@ -15,6 +15,11 @@ public class GameManager : MonoBehaviour
 
     public PlayerAccount currentPlayerAccount;
 
+    public static string GetPlayerPronouns()
+    {
+        return singleton.currentPlayerAccount.pronounID == 0 ? "They/Them" : singleton.currentPlayerAccount.pronounID == 1 ? "She/Her" : "He/Him";
+    }
+
     private void Awake()
     {
         singleton = this;
