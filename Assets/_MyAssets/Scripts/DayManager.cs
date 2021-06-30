@@ -18,7 +18,7 @@ public class DayManager : MonoBehaviour
     [SerializeField] MainChat mainChat = new MainChat();
 
     public int day = 1;
-    public void startTheFuckingGame()
+    void Start()
     {
         StartCoroutine(waitForStart());
     }

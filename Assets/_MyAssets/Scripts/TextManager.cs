@@ -57,10 +57,12 @@ public class TextManager : MonoBehaviour
     string[] gameNames = { "flows", "bash", "queen", "cry", "play", "ygg" };
     public Sprite[] mySelfies;
     string newsUpdate = "";
+    string prePath;
     [SerializeField] Sprite[] creditImages;
     void Awake()
     {
         // repSystem = new ReputationSystem();
+        prePath = Application.streamingAssetsPath;
         GameObject manager = GameObject.FindWithTag("Manager");
         gameManager = manager.GetComponent<GameManager>();
         textHolder = manager.GetComponent<textFileHolder>();
@@ -74,7 +76,7 @@ public class TextManager : MonoBehaviour
     {
         if (timeTracker.day == 4 && channel == 1)
         {
-            path = "Assets/_MyAssets/TextFiles/finalGame.txt";
+            path = prePath + "/finalGame.txt";
         }
         if (timeTracker.day == 4 && channel != 1)
         {
@@ -291,7 +293,7 @@ public class TextManager : MonoBehaviour
     }
     IEnumerator readingText(string[] splitDialogue)
     {
-        foreach (string line in File.ReadLines(path))
+        foreach (string line in File.ReadLines(prePath + path))
         {
             yield return new WaitUntil(() => readNextLine == true);
             splitDialogue = line.Split('|');
