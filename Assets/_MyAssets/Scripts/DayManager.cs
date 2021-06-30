@@ -17,7 +17,7 @@ public class DayManager : MonoBehaviour
     TimeTracker timeTracker = new TimeTracker();
     [SerializeField] MainChat mainChat = new MainChat();
 
-    int day = 1;
+    public int day = 1;
     public void startTheFuckingGame()
     {
         StartCoroutine(waitForStart());
@@ -29,9 +29,16 @@ public class DayManager : MonoBehaviour
     }
     public void onChangeOfDay(int x)
     {
-
-        dayChange.Invoke(x);
-        morning();
+        if (day == 4)
+        {
+            dayChange.Invoke(x);
+            end();
+        }
+        else
+        {
+            dayChange.Invoke(x);
+            morning();
+        }
     }
 
 
@@ -52,6 +59,11 @@ public class DayManager : MonoBehaviour
         // Finishing dm's and ending day wrap up.
         mainChat.EnablePanel(0);
         timeTracker.Invoke(dayPhases.NIGHT);
+    }
+
+    public void end()
+    {
+        timeTracker.Invoke(dayPhases.END);
     }
 
     public DayTracker getDayChange()

@@ -7,33 +7,116 @@
 @:|2|PockyDaze|Ugh... A little...
 @:|2|PockyDaze|I was up later than usual.
 @:|2|CanOfCorn|Too relateable xD
-@:|0|CanOfCorn|OH! OH! <pnm>! The updates for Bash Bros :o
-@:|0|CanOfCorn|Did you see them?
-*:|0|1|2|Of course I did!|No, I haven't read them yet...
-@:|1|CanOfCorn|Yesss! I'm sooo excited. They're really doing so much for Nie's verse.
-@:|1|CanOfCorn|I'll die if they add more.
-@:|1|CanOfCorn|In a good way, obviously :P
-@:|2|CanOfCorn|RIIIP.
-@:|2|CanOfCorn|You gotta check those!
-@:|2|CanOfCorn|There's some juicy stuff about to happen :D
-@:|1|CanOfCorn|Honestly though xD What are you looking forward to?
-*:|1|3|4|The Desert Map!|The New Item!
-@:|3|CanOfCorn|YESSS! Now I HAVE to show you Nie Automatic sometime.
-@:|3|CanOfCorn|I hope they remake the map as it is in-game.
-@:|4|CanOfCorn|OOO YEAH! That new Anti-Matter Ball sounds hella fun :D
-@:|4|CanOfCorn|It's about time they update some of the old items, too.
-@:|3|CanOfCorn|There's a new game mode that's gonna be released with it, too.
-@:|3|CanOfCorn|We could play together to grind the gems for the rewards!
-*:|3|5|6|250 gems for the limited time profile background :P|500 gems for the limited time profile background :P
-@:|5|CanOfCorn|It's not that bad though!
-@:|5|CanOfCorn|Trust me. We'll get it done in no time ;D
-@:|6|CanOfCorn|It's 250 gems for the background.
-@:|6|CanOfCorn|I think you're thinking about the skins for B2 and 2A :P
-@:|4|CanOfCorn|Pea Shooter and Shrooms were revamped -- that'll be game-changing.
-@:|4|CanOfCorn|And there was one more big change...
-*:|4|7|8|The BEAWR!|Caps!
-@:|7|CanOfCorn|Right! Damage output and targeting focus...
-@:|7|CanOfCorn|And I can't wait to see this "dangerously cute" visual update xD
-@:|8|CanOfCorn|Nooo it was The BEAWR silly :3 RAWR.
-@:|8|CanOfCorn|They removed Caps from the game and added its bonuses to Shrooms.
-!:|0|
+*:|*|1|2|bash|flows
+@:|1|CanOfCorn|OH! OH! <pnm>! The updates for Bash Bros :o
+@:|1|CanOfCorn|Did you see them?
+*:|1|3|4|Of course I did!|No, I haven't read them yet...
+@:|3|CanOfCorn|Yesss! I'm sooo excited. They're really doing so much for Nie's verse.
+@:|3|CanOfCorn|I'll die if they add more.
+@:|3|CanOfCorn|In a good way, obviously :P
+@:|4|CanOfCorn|RIIIP.
+@:|4|CanOfCorn|You gotta check those!
+@:|4|CanOfCorn|There's some juicy stuff about to happen :D
+@:|4|CanOfCorn|Honestly though xD What are you looking forward to?
+*:|3|5|6|The Desert Map!|The New Item!
+@:|5|CanOfCorn|YESSS! Now I HAVE to show you Nie Automatic sometime.
+@:|5|CanOfCorn|I hope they remake the map as it is in-game.
+@:|6|CanOfCorn|OOO YEAH! That new Anti-Matter Ball sounds hella fun :D
+@:|6|CanOfCorn|It's about time they update some of the old items, too.
+@:|5|CanOfCorn|There's a new game mode that's gonna be released with it, too.
+@:|5|CanOfCorn|We could play together to grind the gems for the rewards!
+*:|5|7|8|250 gems for the limited time profile background :P|500 gems for the limited time profile background :P
+@:|7|CanOfCorn|It's not that bad though!|C
+@:|7|CanOfCorn|Trust me. We'll get it done in no time ;D
+@:|8|CanOfCorn|It's 250 gems for the background.
+@:|8|CanOfCorn|I think you're thinking about the skins for B2 and 2A :P
+@:|6|CanOfCorn|0|Pea Shooter and Shrooms were revamped -- that'll be game-changing.
+@:|6|CanOfCorn|And there was one more big change...
+*:|6|9|10|The BEAWR!|Caps!
+@:|9|CanOfCorn|Right! Damage output and targeting focus...|C
+@:|9|CanOfCorn|And I can't wait to see this "dangerously cute" visual update xD
+@:|10|CanOfCorn|Nooo it was The BEAWR silly :3 RAWR.
+@:|10|CanOfCorn|They removed Caps from the game and added its bonuses to Shrooms.
+@:|2|PockyDaze|Yo, <pnm>. Flows! news came through this morning.
+@:|2|PockyDaze|Did you see them?
+*:|2|11|12|Of course I did!|No, I haven't read them yet...
+@:|11|PockyDaze|Yeah! So what do you think? 
+@:|11|PockyDaze|I can't believe it blew up so much.
+@:|11|PockyDaze|It's crazy!
+@:|12|PockyDaze|Mow...
+@:|12|PockyDaze|You should check it out if you have the time. 
+@:|12|PockyDaze|Some cool news just dropped.
+@:|11|PockyDaze|What do you think? :3
+*:|11|13|14|The Customizable UI!|The Top Ranked Song!
+@:|13|PockyDaze|Ah, yeah. That's pretty cool. 
+@:|13|PockyDaze|I'm not too into designing those, but I'm glad they're adding it. This old one is clunky.
+@:|14|PockyDaze|Yeah! 
+@:|14|PockyDaze|It's that song you tried out. I'm surprised it got so popular!
+@:|13|PockyDaze|I'm good with mechanics coding, but my strength wasn't really in UI design.
+@:|13|PockyDaze|Maybe you've got some ideas.
+*:|13|15|16|Yeah! Why don't we get together and talk about it?|I don't have any ideas either, but maybe you can ask somone else?
+@:|15|PockyDaze|Sure! Maybe I can make something for both of us to use.|P
+@:|15|PockyDaze|And if Corn decides to play. >.>
+@:|16|PockyDaze|That's alright.
+@:|16|PockyDaze|I'll see if my other friend has any ideas. 
+@:|14|PockyDaze|Just you wait! The next one I finish is going to be popular next month too.
+@:|14|PockyDaze|They'll be playing my song in the finals. >:3
+*:|14|17|18|Let me play it when you finish it! The last one was so much fun.|You're going to need to work hard to show up in the news TWICE.
+@:|17|PockyDaze|Absolutely!|P
+@:|17|PockyDaze|As soon as it's ready, you can give me some feedback on it.
+@:|18|PockyDaze|Yeah, maybe I'm looking too high.
+@:|18|PockyDaze|But I'll give it my best shot. 
+@:|0|CanOfCorn|So like...
+@:|0|CanOfCorn|I know we said we were gonna play Alliance of Myth...
+@:|0|CanOfCorn|But my friends are hitting me up again.
+@:|0|PockyDaze|More Bash Bros?
+@:|0|CanOfCorn|Nah. Cry to Responsibility this time :P
+@:|0|PockyDaze|Wha... OHHH.
+@:|0|PockyDaze|That's the name of the game xD I'm dumb.
+@:|0|PockyDaze|Ironic, isn't it?
+@:|0|CanOfCorn|What do you mean?
+@:|0|PockyDaze|Uhm...
+*:|0|1|2|Defend PockyDaze.|Defend CanOfCorn
+@:|1|PlayerName|I think what Pocky means is|P
+@:|1|PlayerName|You have a responsibility to your friends.
+@:|1|PlayerName|And the game title is "Cry to Responsibility" xD
+@:|1|PlayerName|Get it?
+@:|1|CanOfCorn|Ohhh okay, I get it.
+@:|1|PockyDaze|:P thanks for explaining, <pnm>.
+@:|2|PlayerName|Yeah the way you said that is... :\|C
+@:|2|PlayerName|I think what Pocky means is
+@:|2|PlayerName|You take responsibility for your friendships.
+@:|2|PlayerName|It's just funny that the game is also called "Cry to Responsibility."
+@:|2|PockyDaze|Sorry man. Didn't mean anything by it.
+@:|2|CanOfCorn|No harm, no foul :)
+@:|0|CanOfCorn|Anyways. If you guys wanna join, you're totally welcome to :D
+@:|0|CanOfCorn|And we could always play Alliance of Myth later if you guys still want to.
+@:|0|PockyDaze|I'll probably just chill and play For the Queen or something.
+@:|0|PockyDaze|I've been meaning to check out the new content for it.
+@:|0|CanOfCorn|For the Queen? I've never heard of it.
+@:|0|PockyDaze|It's... a turn-based rpg... dungeon crawler?
+@:|0|PockyDaze|I don't really know how to describe it.
+@:|0|PockyDaze|But it's a single player game, so it makes sense why you don't know of it.
+@:|0|CanOfCorn|Ah, yeah. True.
+@:|0|CanOfCorn|Definitely more of a "play with friends" sort of guy :P
+@:|0|PockyDaze|It's also made by a small game studio.
+@:|0|PockyDaze|And was released like, a year or two ago.
+@:|0|CanOfCorn|Ohhh, okay wait a sec.
+@:|0|CanOfCorn|Is that the game that YouView streamer has been playing?
+@:|0|PockyDaze|Yeah, that's the one.
+@:|0|PockyDaze|Could say that JogbooLive repopularized it.
+@:|0|CanOfCorn|Ahhh that's pretty cool :D
+@:|0|CanOfCorn|So what's it gonna be, <pnm>?
+@:|0|CanOfCorn|There's an open spot for you :D
+@:|0|PockyDaze|It'd be pretty boring, but I could show you For the Queen if you really want...
+@:|0|CanOfCorn|CRY TO RESPONSIBILITY SERVER LINK
+@:|0|PockyDaze|FOR THE QUEEN SERVER LINK
+*:|0|1|2|Join Cry to Responsibility Server|Join For the Queen Server
+@:|1|CanOfCorn|Nice! I'll let me friends know you're coming too :D|C
+@:|1|PockyDaze|Lemme know if you guys wanna swap to Alliance of Myth later.
+@:|1|CanOfCorn|Will do!
+@:|2|PockyDaze|Was not expecting that xD I'll see you in there.|P
+@:|2|CanOfCorn|I'll hit you guys up when I'm done with Responsibility.
+@:|2|PockyDaze|Lol ye, sounds good.
+!:|1|cry|C
+!:|2|queen|P

@@ -18,7 +18,7 @@
 @:|0|CanOfCorn|What to listen to... Do you have any suggestions?
 @:|0|CanOfCorn|I'm getting tired of all the same music on my playlist I think xD
 *:|0|1|2|What about something by Evicii?|What about something by Lankin Peak?
-@:|1|CanOfCorn|Ooo okay. It's been a while since I've listened to him :D
+@:|1|CanOfCorn|Ooo okay. It's been a while since I've listened to him :D|C
 @:|2|CanOfCorn|Hmmm... I'm not really a rock fan, but I'll check it out.
 @:|0|CanOfCorn|Alright, all situated. Sorry for leaving you mid-game!
 @:|0|CanOfCorn|I felt awful about it :(
@@ -42,3 +42,65 @@
 @:|2|CanOfCorn|YES! I think it's hilarious that they came out with just... CHAOS.
 @:|2|CanOfCorn|It's literal CHAOS MODE ACTIVATED.
 @:|2|CanOfCorn|YOU CAN PUNCH PEOPLE AS YOU'RE TAKING BASES LOLOLOL
+@:|0|CanOfCorn|No really though.
+@:|0|CanOfCorn|I LOVE baseball.
+@:|0|CanOfCorn|I know it probably wouldn't happen but like.
+@:|0|CanOfCorn|IF we met each other IRL on day...
+@:|0|CanOfCorn|Would you come to my games and cheer me on?
+*:|0|1|2|OF COURSE I WOULD!|Hmmm... As long as there's a shady spot for me to sit :P
+@:|1|CanOfCorn|Awww you're too cute :P I'd appreciate that.|C
+@:|1|CanOfCorn|I'd definitely win all my games with you as my cheerleader ;D
+@:|1|CanOfCorn|OOF now I wish I could meet you for real xD
+@:|2|CanOfCorn|LOL there are probably some trees you could sit under.
+@:|2|CanOfCorn|Although, they might be situated further from the field...
+@:|2|CanOfCorn|I've seen some moms bring umbrellas and chairs with them xD
+@:|0|CanOfCorn|We could even go out for dinner afterwards.
+@:|0|CanOfCorn|MY TREAT!
+@:|0|CanOfCorn|Usually I go with my family after games.
+@:|0|CanOfCorn|But if you were with me...
+@:|0|CanOfCorn|Sorry not sorry, but I'd totally ditch them :P
+@:|0|CanOfCorn|To celebrate my victory, of course ;D
+@:|0|CanOfCorn|WITH YOU!
+*:|0|1|2|Sounds like a fun time :D|But what if you don't win :<
+@:|1|CanOfCorn|It would be!|C
+@:|1|CanOfCorn|At least, that what I'd like to believe :P
+@:|2|CanOfCorn|Even if I don't win, we'd still go out for food.
+@:|2|CanOfCorn|You'll just have to console my defeated self xD
+@:|0|CanOfCorn|There are a lot of restaurants near the stadium.
+@:|0|CanOfCorn|With a lot of different cuisines to choose from.
+@:|0|CanOfCorn|Our of curiosity, what do you like to eat?
+*:|0|1|2|Something spicy!|Something savoury!
+@:|1|CanOfCorn|OH NOOO! You're like my sister xD
+@:|1|CanOfCorn|She LOVES spicy food.
+@:|1|CanOfCorn|Now that I'm saying that again, feels like de ja vu xD
+@:|2|CanOfCorn|Ooo yeah! Those are the best after a game TBH.|C
+@:|2|CanOfCorn|There's a great ramen truck and a sushi-boat nearby...
+@:|2|CanOfCorn|And a reaaally good Japanese curry and chicken joint.
+@:|2|CanOfCorn|Typical, I know :P
+@:|2|CanOfCorn|Don't judge me lol
+@:|0|CanOfCorn|Ahhh, just thinking about meeting you IRL makes me excited xD
+@:|0|CanOfCorn|Even though I know that's like, a long shot lol
+@:|0|CanOfCorn|I know we've only been talking for a few days.
+@:|0|CanOfCorn|But you're super chill and fun to be around.
+@:|0|CanOfCorn|Just saying, I probably wouldn't mind being around you more ;D
+@:|0|CanOfCorn|That's all you're getting out of me tonight because...
+@:|0|CanOfCorn|Drumroll please...
+@:|0|CanOfCorn|Once again, Bigsby is begging me for a walk xD
+@:|0|CanOfCorn|So unfortunately, I have to head out I guess :(
+@:|0|CanOfCorn|Hopefully I'll catch you online tomorrow :D
+*:|*|1|2|3|
+@:|1|CanOfCorn|Oh, and before I go...
+@:|1|CanOfCorn|*Image*
+@:|1|CanOfCorn|Me at my desk with my headphones :P
+@:|1|CanOfCorn|In case you were curious~
+@:|1|CanOfCorn|Anyways. GG and good night!
+@:|2|CanOfCorn|Me and Bigsby on our walk!
+@:|2|CanOfCorn|*Image*
+@:|2|CanOfCorn|He's the bestest boy :D
+@:|2|CanOfCorn|Anyways, I'll quit bugging you.
+@:|2|CanOfCorn|Good night :D
+@:|3|CanOfCorn|We talked so much about baseball today, I feel like I needed to share this:
+@:|3|CanOfCorn|*Image*
+@:|3|CanOfCorn|My mom snapped a good one of me while I was playing one day.
+@:|3|CanOfCorn|Okay, that's it from me for now :P
+@:|3|CanOfCorn|GOODNIGHT!!

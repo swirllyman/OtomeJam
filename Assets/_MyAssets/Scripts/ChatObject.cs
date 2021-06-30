@@ -10,7 +10,7 @@ public class ChatObject : MonoBehaviour
     public TMP_Text myChatText;
     public Image myIcon;
     public Sprite myImage;
-    public Sprite mySprite;
+    public Image mySprite;
     public Image myMask;
     public Sprite bot;
     public void changeSize()
@@ -28,6 +28,9 @@ public class ChatObject : MonoBehaviour
             chatObjectRt.sizeDelta = new Vector2(1100f, (myChatText.preferredHeight + 46));
             gameObject.GetComponent<RectTransform>().sizeDelta = chatObjectRt.sizeDelta;
         }
+    }
+    public void maskAndImage()
+    {
         if (myImage == bot)
         {
             myMask.sprite = myImage;

@@ -1,0 +1,11 @@
+@:|0|NewsBot|Hey <pnm>!
+@:|0|NewsBot|It looks like you've been invited to join Double Plays Server and Yggdrasil Server.
+@:|0|NewsBot|Would you like to Subscribe to one of these now?
+*:|0|1|2|Subscribe to Double Plays.|Subscribe to Yggdrasil.
+@:|1|NewsBot|Great! Your current subscription has been cancelled.
+@:|1|NewsBot|You are now Subscribed to Double Plays.
+@:|2|NewsBot|Great! Your current subscription has been cancelled.
+@:|2|NewsBot|You are now Subscribed to Yggdrasil.
+@:|0|NewsBot|Thanks for using NewsBot!
+!:|1|play
+!:|2|ygg

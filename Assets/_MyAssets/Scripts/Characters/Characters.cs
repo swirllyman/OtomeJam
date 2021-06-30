@@ -6,7 +6,9 @@ public class Characters : MonoBehaviour
     [SerializeField] private string ign;
     [SerializeField] private int age;
     [SerializeField] private Sprite icon;
-
+    public bool bronze = false;
+    public bool silver = false;
+    public bool gold = false;
     public Sprite bronzeSelfie;
     public Sprite silverSelfie;
     public Sprite goldSelfie;

@@ -1,14 +1,14 @@
-~:3|0|"We’re excited to announce our all new Assassin class! This class specializes in speed and piercing damage, and features an all new dual-wielding ability! Now you can dual wield your favorite daggers or short sword+dagger mix. Dual wielding causes extra damage on a perfect roll, and crits on enemies under a 25% threshold will be executed.
+~:3|0|"We’re excited to announce our all new <mark=#AEDEFB60>Assassin class</mark>! This class specializes in speed and piercing damage, and features an all new dual-wielding ability! Now you can dual wield your favorite daggers or short sword+dagger mix. Dual wielding causes extra damage on a perfect roll, and crits on enemies under a 25% threshold will be executed.
 ~:3|0|
 ~:3|0|Have fun and good luck out there adventurers!"
-?/|0|
-~:3|0|"New purchaseable DLC! We’ve created a brand new, dungeon crawler game mode. Skip the decision making of “where do I want to go next?” and face off against an endless dungeon to see just how deep you can go. Floors are designed with randomly generated enemies, as well as traps and puzzles. Gear up and purchase loot at the end of every floor in an auto-generated shop. Hopefully you get lucky enough to brave the depths.
+?/|0|queen|
+~:3|0|"<mark=#AEDEFB60>New purchaseable DLC! We’ve created a brand new, dungeon crawler game mode</mark>. Skip the decision making of “where do I want to go next?” and face off against an endless dungeon to see just how deep you can go. Floors are designed with randomly generated enemies, as well as traps and puzzles. Gear up and purchase loot at the end of every floor in an auto-generated shop. Hopefully you get lucky enough to brave the depths.
 ~:3|0|
 ~:3|0|Leaderboards for Endless Dungeon are global. Top 10 for every month will receive 100 Story Points, which can be exchanged in the Story Shop to unlock more in-game content."
-?/|0|
+?/|0|queen|
 ~:3|0|With the release of the Assassin class, we decided to open dual wielding up to every class. Non-assassin classes are only capable of dual wielding DAGGERS (no, you can’t dual wield short sword+dagger OR wand+dagger), and do not get the extra damage proc or execute. This is pending community feedback, so let us know what you think in our Official Harmocord Server, under the #feedback channel!
-?/|0|
-~:4|0|"By popular community demand, we have now released the beta version for MULTIPLAYER! Gear up with a party of up to three people and defeat the villains that plague the land and kingdom of Gahrul.
+?/|0|queen|
+~:4|0|"By popular community demand, <mark=#AEDEFB60>we have now released the beta version for MULTIPLAYER</mark>! Gear up with a party of up to three people and defeat the villains that plague the land and kingdom of Gahrul.
 ~:4|0|
 ~:4|0|Known Issues: Most of these can be fixed by simply closing out the client and rejoining the game lobby. If you encounter any other issues, please contact us at support@forthequeen.com or post in the #bug-report channel in our community server.
 ~:4|0|
@@ -17,9 +17,9 @@
 ~:4|0|In game: Some treasure chests run away on Pass (mimics are quite elusive).
 ~:4|0|Visual: Turn order is not correctly indicated after exiting a dungeon.
 ~:4|0|Visual: Boat distance indicators sometimes don’t go away after someone else has ended their turn."
-?/|0|
-~:4|0|"Our end of the year update is a big one! Get ready to brave an all new, ruined metropolis, filled to the brim with all sorts of new and map-specific items and enemies. We decided to add a fun, sci-fi twist to our game verse. What if Gahrul progressed deep into the future? Find out this Christmas in ‘Tales of the Ruined Metropolis’, a purchaseable DLC.
+?/|0|queen|
+~:4|0|"Our end of the year update is a big one! Get ready to brave an all new, ruined metropolis, filled to the brim with all sorts of new and map-specific items and enemies. <mark=#AEDEFB60>We decided to add a fun, sci-fi twist to our game verse</mark>. What if Gahrul progressed deep into the future? Find out this Christmas in ‘Tales of the Ruined Metropolis’, a purchaseable DLC.
 ~:4|0|
 ~:4|0|Stay up to date with the latest news on this new map by subscribing to our emailing list, or joining our Harmocord server!"
-?/|0|
+?/|0|queen|
 ?:/|0|

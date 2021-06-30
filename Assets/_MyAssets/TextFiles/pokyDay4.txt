@@ -1,0 +1,82 @@
+@:|0|PockyDaze|Yo <pnm>.
+@:|0|PockyDaze|I was sleepin', so I missed your message. 
+*:|0|1|2|Didn't get enough sleep again?|You're always sleeping :P
+@:|1|PockyDaze|Haha, getting enough sleep was actually the problem.
+@:|1|PockyDaze|I feel well and rested for once!
+@:|2|PockyDaze|xD well for once I actually SLEPT.
+@:|2|PockyDaze|I'm feeling pretty good right now, tbh.
+@:|0|PockyDaze|I finally finished off all my coding work for that game I mentioned before.
+@:|0|PockyDaze|And I finished my latest song for Flows! too. 
+@:|0|PockyDaze|That meant I could get a good nights sleep for once. 
+@:|0|PockyDaze|Now you have my full, undivided attention (I am still surfing the web though, lol)
+*:|0|1|2|Doesn't seem undivided! :(|I guess that's the best I can hope for.
+@:|1|PockyDaze|Haha, I'll close them, I'll close them!
+@:|2|PockyDaze|Sry not sry.
+@:|0|PockyDaze|Ah, but you reached out to me, didn't you?
+@:|0|PockyDaze|You wanted to talk about something.
+@:|0|PockyDaze|Actually... I also had something I wanted to say too.
+@:|0|PockyDaze|It's kind of embarrassing.
+*:|0|1|2|You go first. Rip off the bandaid. :3|Embarrassing?? Then let me go first.
+@:|1|PockyDaze|Alright... uhm...
+@:|2|PockyDaze|Sorry, I need to share it or I'm gonna 'esplode.
+!?:|
+@:|1|PockyDaze|So... I know this might come out of the blue since you've only known both Corn and me for a few days now...
+@:|1|PockyDaze|But I wanted to write it out first and see how it feels. 
+@:|1|PockyDaze|It's been really great hanging out with you and Corn.
+@:|1|PockyDaze|You're pretty cool and Corn is really energetic. 
+@:|1|PockyDaze|You've been such a great friend to me, so...
+@:|1|PockyDaze|I've been talking to Corn on the side...
+@:|1|PockyDaze|And I think I want to ask him out.
+@:|1|PockyDaze|I don't know if he's even interested...
+@:|1|PockyDaze|What do you think...?
+*:|1|4|5|You two would be great together.|Wait... But, I like you :(
+@:|4|PockyDaze|Whew... 
+@:|4|PockyDaze|I was really afraid you were going to say it sounded ridiculous. 
+@:|4|PockyDaze|Well... if you say it sounds good... I should figure out what to say.
+@:|5|PockyDaze|Oh... man.
+@:|5|PockyDaze|Sorry, I just don't feel like we really click. 
+@:|5|PockyDaze|I totally get it if you want to stop talking, but... I hope we can stay friends.
+@:|2|PockyDaze|It's a bit sudden because we've only known each other for a few days now...
+@:|2|PockyDaze|But it's been really cool getting to hang out with you. 
+@:|2|PockyDaze|I don't get to meet many people I open up to. 
+@:|2|PockyDaze|So our friendship has been really special to me.
+@:|2|PockyDaze|Again, I know, it's a bit intense right off the bat...
+@:|2|PockyDaze|But I want to spend more time getting to know you. 
+@:|2|PockyDaze|Maybe we can Zomm sometime.
+@:|2|PockyDaze|I'll show you around my room, and you can show me your place. :)
+*:|2|6|7|Are you sure you want me?|I really like you too :D
+@:|6|PockyDaze|Erm... yeah. 
+@:|6|PockyDaze|I mean, we haven't asked each other really awkward and weirdly personal questions yet.
+@:|6|PockyDaze|But I'm happy to be an open book. Ask me anything.
+@:|7|PockyDaze|Whew.... I was starting to feel like I was coming on too strong. XD
+@:|7|PockyDaze|Hey! I just realised I haven't seen a good picture of you yet. 
+@:|7|PockyDaze|You'll have to take a selfie for me, so I can match a face to your great personality. :3
+@:|3|PockyDaze|Okay... uhm... so I've been thinking about you.
+@:|3|PockyDaze|A LOT.
+@:|3|PockyDaze|Ugh, that sounds kinda creepy.
+@:|3|PockyDaze|What I mean is that we've been talking lately.
+@:|3|PockyDaze|I feel like I can really be myself when I'm talking with you. 
+@:|3|PockyDaze|You're smart, funny, and so easy to be around.
+@:|3|PockyDaze|And I'm a mess.
+@:|3|PockyDaze|...
+@:|3|PockyDaze|I'm not really selling myself well here.
+@:|3|PockyDaze|Listen, what I'm trying to say is...
+@:|3|PockyDaze|I
+@:|3|PockyDaze|like
+@:|3|PockyDaze|cats
+@:|3|PockyDaze|Sorry, I panicked. 
+@:|3|PockyDaze|I like you. A lot. A lot a lot.
+@:|3|PockyDaze|And I wanted to know if you'd like to date me.
+@:|3|PockyDaze|...
+@:|3|PockyDaze|.........
+@:|3|PockyDaze|..........ok I'm done.
+*:|3|8|9|You're such a spazz. Of COURSE.|Are you sure? We've only known each other a few days...
+@:|8|PockyDaze|Oh my god, I think I'm having an attack.
+@:|8|PockyDaze|Nope, false alarm.
+@:|8|PockyDaze|I was really hoping you'd say that. 
+@:|8|PockyDaze|Fuck, I'm still really nervous... but I'm really... really... really happy. :)
+@:|9|PockyDaze|I'm sure. I'm sooooo sure. 
+@:|9|PockyDaze|I haven't clicked like this with anyone in a while.
+@:|9|PockyDaze|Y'know I don't just meet people online and consider them all as romantic options like this is some video game.
+@:|9|PockyDaze|But I'm glad we turned out like this. :)
+

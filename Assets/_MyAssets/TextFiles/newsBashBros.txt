@@ -1,5 +1,5 @@
 ~:1|0|In celebration of Nie Replica’s 10 year anniversary, we’ve decided to bring over <mark=#AEDEFB60>two new characters from Nie Automatic: B2 and 2A</mark>! Check out the shop in the in-game launcher to access this free DLC. We’re also releasing their original, Nie Replica skins for 50% off for a limited time, at 500 gems each. Don’t miss out on a chance to celebrate the 10th year anniversary of the Nie-verse!
-?/|0|
+?/|0|bash|
 ~:1|0|"We’ve noticed a few characters in the game are getting a little out of hand in pro play, so we’ve decided to tune them down to make them a little more manageable for contenders to put up a fair fight.
 ~:1|0|
 ~:1|0|WOWser - This tanky bruiser does a little too much damage for his tenacity, making it difficult for melee match-ups to get in close and properly duke it out with him. <mark=#AEDEFB60>We’re dialing back his tenacity duration</mark> to make it possible to find pockets of time to punish him.
@@ -20,9 +20,9 @@
 ~:1|0|
 ~:1|0|<mark=#AEDEFB60>Karrin-You</mark>
 ~:1|0|Damage: 100AD 1st hit, up to 500 AD on fifth hit -> 50 1st hit, up to 300 on fifth"
-?/|0|
+?/|0|bash|
 ~:2|0|To follow up our B2 and 2A character releases, we’re also introducing <mark=#AEDEFB60>a new Event Map</mark> that will feature an all-new game mode! Team up with your friends in a Capture the Flag meets King of the Hill, battle of the fittest. Complete Event missions to earn some free gems and score event loot in the shop. We’ll also have a <mark=#AEDEFB60>‘Desert Profile Background’ available for a limited time at 250 gems</mark>.
-?/|0|
+?/|0|bash|
 ~:2|0|"We decided it’s about time to change up some of the older items and give them some fresh upgrades. With all the new items released, the old ones have been feeling more and more lack-luster. We want to bump them up so they can have a chance to shine again. On top of all of that, <mark=#AEDEFB60>we’re introducing another new item to the game</mark> that we think should add some interesting flavor.
 ~:2|0|
 ~:2|0|NEW! Anti-Matter Ball - Consumed on throw. This item creates a dark hole in the area that removes enemies from combat for 3s. Removed enemies are untargetable for the duration. Upon re-entry into combat, enemies will be blinded for 1.5s.
@@ -33,11 +33,11 @@
 ~:2|0|
 ~:2|0|Shrooms - Added: Shrooms now give bonus jump distance, bonus range, and bonus defensive stats.
 ~:2|0|(Caps - Removed from game; bonuses added to Shrooms.)"
-?/|0|
+?/|0|bash|
 ~:4|0|"With the instant feedback we’ve been given concerning the widespread popularity of B2 and 2A from Nie Automatic, we’ve decided to add in one more character from the Nie-verse: Raina from Nie Replica! We’re planning to do an early roll-out in the next month onto our beta servers, but our plan is that she’ll be fully released and playable by Patch 1.10.
 ~:4|0|
 ~:4|0|We’ve also decided to do things a little differently this time. We’re asking you, the community, to design Raina’s release skin! Submissions will be open for the next three months, with voting to happen in October. For more information, please visit our Contest Guidelines page here. The lucky winner will have their design brought to life and featured as Raina’s release skin (along with some other really sick prizes)! 
 ~:4|0|
 ~:4|0|Good luck to you all!"
-?/|0|
+?/|0|bash|
 ?:/

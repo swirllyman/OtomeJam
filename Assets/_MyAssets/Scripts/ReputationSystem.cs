@@ -12,4 +12,28 @@ public class ReputationSystem : MonoBehaviour
     {
         return character.getReputation();
     }
+
+    public int gettingSelfies(int rep, Characters character)
+    {
+        if (rep >= 3 && character.bronze == false)
+        {
+            character.bronze = true;
+            return 1;
+        }
+        else if (rep >= 8 && character.silver == false)
+        {
+            character.silver = true;
+            return 2;
+        }
+        else if (rep >= 13 && character.gold == false)
+        {
+            character.gold = true;
+            return 3;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+
 }

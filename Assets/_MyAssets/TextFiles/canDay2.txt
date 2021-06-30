@@ -1,4 +1,4 @@
-@:|0|CanOfCorn|Hey <player's name>, you okay over there? xD
+@:|0|CanOfCorn|Hey <pnm>, you okay over there? xD
 @:|0|CanOfCorn|Don't mind what other people say in-game...
 *:|0|1|2|Those were some real toxic assholes.|Eh, I don't care~ People will be people.
 @:|1|CanOfCorn|Oh yeah. Cry to Responsibility is filled with them.
@@ -71,3 +71,19 @@
 @:|0|CanOfCorn|Bigsby is reaaally bugging me to go out.
 @:|0|CanOfCorn|So I should probably take him on his walk before it gets too dark >.<;;
 @:|0|CanOfCorn|See you tomorrow!
+*:|*|1|2|3|
+@:|1|CanOfCorn|Oh, and before I go...
+@:|1|CanOfCorn|*Image*
+@:|1|CanOfCorn|Me at my desk with my headphones :P
+@:|1|CanOfCorn|In case you were curious~
+@:|1|CanOfCorn|Anyways. GG and good night!
+@:|2|CanOfCorn|Me and Bigsby on our walk!
+@:|2|CanOfCorn|*Image*
+@:|2|CanOfCorn|He's the bestest boy :D
+@:|2|CanOfCorn|Anyways, I'll quit bugging you.
+@:|2|CanOfCorn|Good night :D
+@:|3|CanOfCorn|We talked so much about baseball today, I feel like I needed to share this:
+@:|3|CanOfCorn|*Image*
+@:|3|CanOfCorn|My mom snapped a good one of me while I was playing one day.
+@:|3|CanOfCorn|Okay, that's it from me for now :P
+@:|3|CanOfCorn|GOODNIGHT!!

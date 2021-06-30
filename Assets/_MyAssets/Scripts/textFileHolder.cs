@@ -24,7 +24,7 @@ public class textFileHolder : MonoBehaviour
         newsDay2.path1 = forTheQueen;
         newsDay2.path2 = cryToResponsibility;
         newsDay3.path1 = doublePlays;
-        newsDay3.path1 = yggdrasil;
+        newsDay3.path2 = yggdrasil;
         mainServerText.Add(1, mainServerDay1);
         mainServerText.Add(2, mainServerDay2);
         mainServerText.Add(3, mainServerDay3);

@@ -1,0 +1,91 @@
+*:|0|1|2|Wow, you're up late. Are you working on something?|Wow, you're up late. Having trouble sleeping?
+@:|1|PockyDaze|Oh, hey. Yeah, I'm working on some coding and I guess I got in the zone:tm:. 
+@:|2|PockyDaze|Always. But right now I'm just working on a video game for this company I'm with.
+@:|0|PockyDaze|You know how it is. Sometimes I just feel the urge to get working. 
+@:|0|PockyDaze|Those are hard moments to come by, so I always try to take full advantage of it when it happens. 
+@:|0|PockyDaze|I'm not the only one that's up really late though. 
+@:|0|PockyDaze|Up late playing games?
+*:|0|1|2|I'm trying to get better at FLOWS!, so I've been putting in some extra hours.|Nothing much, just finished an episode of CATS, CATS, and MORE CATS.
+@:|1|PockyDaze|Haha, you don't have to try so hard! I'm glad you're enjoying it though. 
+@:|2|PockyDaze|Whoa! I love that show. Have you seen the episode where the the Scottish Fold says "Hewwo" to its owner? Cracks me up every time.
+@:|0|PockyDaze|Hey, I know this is kinda out of nowhere, but...
+@:|0|PockyDaze|Thanks for playing with me. 
+@:|0|PockyDaze|Ugh, I just read that after I sent it. I feel so embarrassed.
+@:|0|PockyDaze|Why is it so easy for little kids, know what I mean? 
+@:|0|PockyDaze|They just walk up to someone and they're like "hEy Be My FrIeNd" and it works. 
+*:|0|1|2|No embarrassment glands, I guess.|Don't worry about it so much. Thanks for playing with me too.
+@:|1|PockyDaze|Guess we learn to be embarrassed of how dumb we are when we get older.
+@:|2|PockyDaze|:O Wow! You just came out the gate like that? Haha... well... as long as we're both doing it... thanks for helping me out like that.|P
+@:|0|PockyDaze|But yeah, I'm just sitting here listening to some rock music and coding. 
+@:|0|PockyDaze|Corn tells me it's really boring, but I like how structured and logical it is.
+@:|0|PockyDaze|Everything has its place, and if you run it and it crashes, you know there's something wrong with the code. 
+@:|0|PockyDaze|They're just problems with answers. 
+@:|0|PockyDaze|Sorry... I bet that sounds really dumb.
+*:|0|1|2|To be honest, I don't really get it.|That makes sense to me. Do you really like math?
+@:|1|PockyDaze|Don't worry about it, haha. I was just rambling on and on.
+@:|2|PockyDaze|I'm not a fan of adding and subtracting and all that. 
+@:|2|PockyDaze|I just like figuring out how things work and why they don't.
+@:|2|PockyDaze|Maybe what I mean is that it's closer to science. Trial and error more than "THIS HAS ONE CORRECT ANSWER."
+@:|0|PockyDaze|Oh, I just saw that FtQ updated. 
+@:|0|PockyDaze|They're adding in a new Assassin class!
+@:|0|PockyDaze|I love DPS classes. 
+@:|0|PockyDaze|I like tearing down bosses and shredding through their HP.
+@:|0|PockyDaze|It also helps that this class will feed off my Rogue. All my work pays off!
+*:|0|1|2|Great! You can be the Assassin to my Paladin.|I play a Rogue too! We can shred them down together!
+@:|1|PockyDaze|Just make sure you protect me while I sneak behind them and stab. :D|P
+@:|1|PockyDaze|And we'll really have an easy time getting into raids.
+@:|1|PockyDaze|I'm glad you like that boring role! You take the dmg, and I'll take them out.
+@:|2|PockyDaze|Yeah, but the wait time on raids is going to be crazy if they add in multiplayer.
+@:|2|PockyDaze|Two DPS looking for a tank and a healer? 
+@:|2|PockyDaze|We're going to be waiting forever in those queues. 
+@:|0|PockyDaze|And it sounds like they're making every class duel-wielding compatible!
+@:|0|PockyDaze|Paladins already had that technically with the sword and shield, but that's good news.
+@:|0|PockyDaze|Damn, not only are we getting a new class, but they're adding in a Dungeon Crawler mode? 
+@:|0|PockyDaze|I kinda love this stuff, so I'm glad they added it in.
+@:|0|PockyDaze|There aren't too many rewards outside of it, but you do get some points for outfits and for transmog weapons.
+@:|0|PockyDaze|I like to see how deep I can get before they finally take me out.
+@:|0|PockyDaze|It's all about resource management. 
+@:|0|PockyDaze|Kinda like that game Orcus.
+*:|0|1|2|I'm not really good at those... I might just focus on the main quest.|Do you know if it's going to be free? I might give it a shot too.
+@:|1|PockyDaze|It's just something for people who are waiting for the new patch to come out. 
+@:|1|PockyDaze|There's not too much 
+@:|2|PockyDaze|lol, it says "purchaseable" right there.
+@:|2|PockyDaze|It shouldn't be too expensive, since it's auto-generated and it's really just to placate the rest of us losers. X3
+@:|0|PockyDaze|"po i32qewar;p09io u023w490 rw4e3p'-/o09;iarwedf3_@q1W    }+ 23rqe4 14204werst32586/97rxsc"
+@:|0|PockyDaze|Sorry about that.
+@:|0|PockyDaze|My cat just jumped up on the keyboard.
+*:|0|1|2|I didn't know you had a cat! What're they like?|Oh, you have a cat? I guess you're not allergic then.
+@:|1|PockyDaze|She's really cute, and she loooooves to cuddle and get pets.|P
+@:|1|PockyDaze|But really annoying too. >.> She jumps on my desk a lot. 
+@:|1|PockyDaze|One time she ruined ALL my work for a class. I was so pissed.
+@:|2|PockyDaze|I'm not, but I think Corn is allergic though. 
+@:|2|PockyDaze|I can't imagine being allergic to an animal.
+@:|2|PockyDaze|It'd drive me crazy to not be able to touch and love on them.
+@:|0|PockyDaze|She's a black cat, and I called her Jiji.
+@:|0|PockyDaze|Y'know, after that really famous anime?
+@:|0|PockyDaze|She doesn't really take after Jiji's personality, but I love her anyway.
+@:|0|PockyDaze|Remind me to send you a picture of her sometime. 
+@:|0|PockyDaze|Seriously, she's the cutest cat you'll ever see.
+@:|0|PockyDaze|Ugh, it's so damn late now. 
+@:|0|PockyDaze|I'm gonna go to bed and try to be up decently early in the morning. 
+@:|0|PockyDaze|Thankfully Jiji only stepped on this chat. I'd hate to have to start this all over again.
+@:|0|PockyDaze|^-^
+@:|0|PockyDaze|Night!
+*:|*|1|2|3|
+@:|1|PockyDaze|Also, I don't take many pics, but...
+@:|1|PockyDaze|*Image*
+@:|1|PockyDaze|I thought it'd be fun to take a quick selfie. 
+@:|1|PockyDaze|Think it could be my new profile picture?
+@:|1|PockyDaze|...nevermind. I like my old one more. XD
+@:|2|PockyDaze|Check out Jiji! Look at her face. <3
+@:|2|PockyDaze|*Image*
+@:|2|PockyDaze|This cat is so talkative.
+@:|2|PockyDaze|Maybe you can hear her when we're on chat.
+@:|2|PockyDaze|Anyway, I'm passing out. Night!
+@:|3|PockyDaze|I bet you wouldn't expect to see this, but...
+@:|3|PockyDaze|*Image*
+@:|3|PockyDaze|Like I said, I like to cosplay. And I felt pretty good about this one.
+@:|3|PockyDaze|Oh, and you can see my giant Teddy Bear too.
+@:|3|PockyDaze|Of course he has a name. 
+@:|3|PockyDaze|It's Sir Bearington III. And you have to say it with as posh an accent as you can.
+@:|3|PockyDaze|Alright, lol. Night.
